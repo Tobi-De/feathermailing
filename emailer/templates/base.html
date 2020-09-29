@@ -21,13 +21,6 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css"
-          integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw=="
-          crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css"
-          integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g=="
-          crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
           integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
           crossorigin="anonymous"/>
@@ -38,8 +31,6 @@
     <!-- This file stores project-specific CSS -->
 
     <link href="{% static 'css/project.css' %}" rel="stylesheet">
-    <link href="{% static 'css/util.css' %}" rel="stylesheet">
-    <link href="{% static 'css/main.css' %}" rel="stylesheet">
 
 
   {% endblock %}
@@ -48,50 +39,50 @@
 
 <body>
 
-{#<div class="mb-1">#}
-{#  <nav class="navbar navbar-expand-md navbar-light bg-light">#}
-{#    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"#}
-{#            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"#}
-{#            aria-label="Toggle navigation">#}
-{#      <span class="navbar-toggler-icon"></span>#}
-{#    </button>#}
-{#    <a class="navbar-brand" href="{% url 'home' %}">Emailer</a>#}
-{##}
-{#    <div class="collapse navbar-collapse" id="navbarSupportedContent">#}
-{#      <ul class="navbar-nav mr-auto">#}
-{#        <li class="nav-item active">#}
-{#          <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>#}
-{#        </li>#}
-{#        <li class="nav-item">#}
-{#          <a class="nav-link" href="{% url 'about' %}">About</a>#}
-{#        </li>#}
-{#        {% if request.user.is_authenticated %}#}
-{#          <li class="nav-item">#}
-{# URL provided by django-allauth/account/urls.py #}
-{#            <a class="nav-link" href="{% url 'users:detail' request.user.username %}">{% trans "My Profile" %}</a>#}
-{#          </li>#}
-{#          <li class="nav-item">#}
-{# URL provided by django-allauth/account/urls.py #}
-{#            <a class="nav-link" href="{% url 'account_logout' %}">{% trans "Sign Out" %}</a>#}
-{#          </li>#}
-{#        {% else %}#}
-{#          <li class="nav-item">#}
-{# URL provided by django-allauth/account/urls.py #}
-{#            <a id="sign-up-link" class="nav-link" href="{% url 'account_signup' %}">{% trans "Sign Up" %}</a>#}
-{#          </li>#}
-{#          <li class="nav-item">#}
-{# URL provided by django-allauth/account/urls.py #}
-{#            <a id="log-in-link" class="nav-link" href="{% url 'account_login' %}">{% trans "Sign In" %}</a>#}
-{#          </li>#}
-{#        {% endif %}#}
-{#      </ul>#}
-{#    </div>#}
-{#  </nav>#}
-{##}
-{#</div>#}
+<div class="container mb-4">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="{% url 'home' %}">Emailer</a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'about' %}">About</a>
+        </li>
+        {% if request.user.is_authenticated %}
+          <li class="nav-item">
+
+            <a class="nav-link" href="{% url 'users:detail' request.user.username %}">{% trans "My Profile" %}</a>
+          </li>
+          <li class="nav-item">
+
+            <a class="nav-link" href="{% url 'account_logout' %}">{% trans "Sign Out" %}</a>
+          </li>
+        {% else %}
+          <li class="nav-item">
+
+            <a id="sign-up-link" class="nav-link" href="{% url 'account_signup' %}">{% trans "Sign Up" %}</a>
+          </li>
+          <li class="nav-item">
+
+            <a id="log-in-link" class="nav-link" href="{% url 'account_login' %}">{% trans "Sign In" %}</a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+  </nav>
+
+</div>
+
 
 <div class="container">
-
   {% if messages %}
     {% for message in messages %}
       <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}">{{ message }}
@@ -100,9 +91,10 @@
       </div>
     {% endfor %}
   {% endif %}
+  {% block content %}
+  {% endblock content %}
 </div>
-{% block content %}
-{% endblock content %}
+
 
 {% block modal %}{% endblock modal %}
 
@@ -122,9 +114,6 @@
           integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
           crossorigin="anonymous"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"
-          integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A=="
-          crossorigin="anonymous"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.0.2/tilt.jquery.min.js"
           integrity="sha512-14AZ/DxUrlF26z6v7egDkpJHKyJRn/7ue2BgpWZ/fmqrqVzf4PrQnToy99sHmKwzKev/VZ1tjPxusuTV/n8CcQ=="
