@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+  <div class="card">
+    <div class="card-body">
+      <div>
+        <b>Name</b>: {{ context }}<br>
+        <b>Numbers of Files</b>: {{ context.csv_file_count }}<br>
+        <b>Numbers of contacts</b>: {{ context.contact_count }}<br>
+        <b>Total Number of Email Addresses</b>: {{ context.total_email_count }}<br>
+        <b>Created:</b> {{ context.created }}<br>
+      </div>
+      <div class="form-group mt-4">
+        <a class="btn btn-primary" href="{% url "send_mails" context.slug %}">Send Emails</a>
+        <a class="btn btn-danger" href="{% url "context_delete" context.slug %}">Delete</a>
+      </div>
+    </div>
+  </div>
+{% endblock %}
