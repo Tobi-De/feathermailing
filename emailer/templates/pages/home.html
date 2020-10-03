@@ -21,17 +21,17 @@
               <h5 class="card-title">Emails</h5>
               <p class="card-text">Add New emails as template and load template email from csv files, docx, txt
                 files.</p>
-              <a href="#" class="btn btn-info">Email Manage</a>
+              <a href="{% url "email_template_list" %}" class="btn btn-info">Email Manage</a>
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class=" col-sm-4">
           <div class="card text-white bg-dark">
             <div class="card-body">
               <h5 class="card-title">Contact</h5>
               <p class="card-text">View all your contacts, add new ones, update or delete old ones at your own
                 needs.</p>
-              <a href="{% url "contact_create" %}" class="btn btn-info">Contact Manage</a>
+              <a href="{% url "contact_list" %}" class="btn btn-info">Contact Manage</a>
             </div>
           </div>
         </div>

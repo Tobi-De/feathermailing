@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+  <div class="card">
+    <h4 class="card-header bg-light">Add Email</h4>
+    <div class="card-body">
+      <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <button type="submit" class="btn btn-success">Create</button>
+        <a href="{% url "load_email" %}" class="btn btn-info">Load from file</a>
+      </form>
+    </div>
+  </div>
+{% endblock %}

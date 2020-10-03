@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+  <div class="card p-4">
+    <h4 class="card-header bg-light">Email template from file</h4>
+    <div class="card-body">
+      <p class="text-justify">
+        I you choose a csv file, you need a least two rows, one for the subject, the second for the message.
+        The program can identify the row if the headers are 'subject' and 'message' if not the first row will be
+        consider the subject and the second the message. if the subject cannot be identifed, or there is less than
+        2 row then the filename will be used as the subject. For all other types, the filename with automatically
+        be consider as the subject ant the content as the message
+      </p>
+      <form class="mt-4" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <button type="submit" class="btn btn-success">Create Email</button>
+      </form>
+    </div>
+  </div>
+{% endblock %}

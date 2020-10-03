@@ -1,11 +1,19 @@
 from django.contrib import messages
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render, get_object_or_404, redirect, reverse
-from django.views.generic import ListView, View, DetailView, DeleteView, CreateView
+from django.views.generic import (
+    ListView,
+    View,
+    DetailView,
+    DeleteView,
+    CreateView,
+    UpdateView,
+    FormView,
+)
 from django_q.tasks import async_task
 
-from .forms import ContextForm, EmailForm, CSVFileUploadForm
-from .models import Context, CSVFile, Contact
+from .forms import ContextForm, EmailForm, CSVFileUploadForm, LoadEmailForm
+from .models import Context, CSVFile, Contact, EmailTemplate
 
 
 class ContextListView(LoginRequiredMixin, ListView):
@@ -74,7 +82,7 @@ class ContactCreateView(LoginRequiredMixin, CreateView):
 
     def get_success_url(self):
         messages.success(self.request, "Contact Added")
-        return reverse("home")
+        return reverse("contact_list")
 
 
 contact_create = ContactCreateView.as_view()
@@ -106,3 +114,89 @@ class SendEmailView(LoginRequiredMixin, View):
 
 
 send_mails = SendEmailView.as_view()
+
+
+class ContactListView(LoginRequiredMixin, ListView):
+    template_name = "core/contact_list.html"
+    queryset = Contact.objects.all().order_by("-created")
+    paginate_by = 6
+
+
+contact_list = ContactListView.as_view()
+
+
+class ContactDelete(LoginRequiredMixin, DeleteView):
+    model = Contact
+
+    def get_object(self, queryset=None):
+        return get_object_or_404(Contact, email=self.kwargs.get("email"))
+
+    def get_success_url(self):
+        messages.success(self.request, "Contact Delete")
+        return reverse("contact_list")
+
+
+contact_delete = ContactDelete.as_view()
+
+
+class EmailTemplateCreate(LoginRequiredMixin, CreateView):
+    template_name = "core/email_template_create.html"
+    model = EmailTemplate
+    fields = "__all__"
+
+    def get_success_url(self):
+        messages.success(self.request, "Email template created")
+        return reverse("email_template_list")
+
+
+email_template_create = EmailTemplateCreate.as_view()
+
+
+class EmailTemplateList(LoginRequiredMixin, ListView):
+    template_name = "core/email_template_list.html"
+    queryset = EmailTemplate.objects.all().order_by("-created")
+    paginate_by = 6
+
+
+email_template_list = EmailTemplateList.as_view()
+
+
+class EmailTemplateUpdate(LoginRequiredMixin, UpdateView):
+    template_name = "core/email_template_update.html"
+    model = EmailTemplate
+    fields = "__all__"
+
+    def get_success_url(self):
+        messages.success(self.request, "Email template updated")
+        return reverse("email_template_list")
+
+
+email_template_update = EmailTemplateUpdate.as_view()
+
+
+class EmailTemplateDelete(LoginRequiredMixin, DeleteView):
+    model = EmailTemplate
+    template_name = "core/email_template_confirm_delete.html"
+
+    def get_success_url(self):
+        messages.success(self.request, "Email template delete")
+        return reverse("email_template_list")
+
+
+email_template_delete = EmailTemplateDelete.as_view()
+
+
+class LoadEmailView(LoginRequiredMixin, FormView):
+    template_name = "core/load_email.html"
+    form_class = LoadEmailForm
+
+    def form_valid(self, form):
+        EmailTemplate.create_email_from_file(form.cleaned_data.get("file"))
+        return super().form_valid(form)
+
+    def get_success_url(self):
+        messages.success(self.request, "Email created")
+        return reverse("email_template_list")
+
+
+load_email = LoadEmailView.as_view()

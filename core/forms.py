@@ -78,3 +78,7 @@ class EmailForm(forms.Form):
         if self.cleaned_data.get("schedule_type") == "I":
             params_dict["minutes"] = self.cleaned_data.get("minutes")
         return params_dict
+
+
+class LoadEmailForm(forms.Form):
+    file = forms.FileField()

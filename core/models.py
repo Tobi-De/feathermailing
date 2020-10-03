@@ -7,7 +7,7 @@ from django.utils.functional import cached_property
 from django_extensions.db.fields import RandomCharField, AutoSlugField
 from django_q.tasks import schedule, async_task
 
-from .utils import async_mass_mailing_csv, async_mass_mailing_contact
+from .utils import async_mass_mailing_csv, async_mass_mailing_contact, get_index
 
 
 class Contact(models.Model):
@@ -25,6 +25,38 @@ class CSVFile(models.Model):
 
     def __str__(self):
         return self.uuid
+
+
+class EmailTemplate(models.Model):
+    subject = models.CharField(max_length=100)
+    slug = AutoSlugField(populate_from=["subject"])
+    message = models.TextField()
+    created = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.subject
+
+    @classmethod
+    def create_email_from_file(cls, file):
+        filename = file.name.split(".")[0].capitalize()
+        extension = file.name.split(".")[1]
+        content = file.read().decode("utf-8")
+        if extension == "csv":
+            reader = csv.reader(StringIO(content))
+            header = next(reader)
+            # if the header have mulitple row then look for the subject if not
+            # subject is the file name
+            subject = filename
+            sub_index = get_index(iterable=header, value="subject", default=0)
+            message_index = get_index(iterable=header, value="message", default=1)
+            for line in reader:
+                if len(header) >= 2 and sub_index is not None:
+                    subject = line[sub_index]
+                EmailTemplate.objects.create(
+                    subject=subject, message=line[message_index]
+                )
+        else:
+            EmailTemplate.objects.create(subject=filename, message=content)
 
 
 # TODO option to nofif admin when email is sent

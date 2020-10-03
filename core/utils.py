@@ -6,6 +6,15 @@ from django.core.mail import send_mail
 from django_q.tasks import async_task
 
 
+def get_index(iterable, value, default=None):
+    try:
+        index = iterable.index(value)
+    except ValueError:
+        return default
+    else:
+        return index
+
+
 def async_mass_mailing_csv(subject, message, from_mail, csv_file, offset=0, limit=100, size=0):
     source_file = csv_file.read().decode("utf-8")
     reader = csv.reader(StringIO(source_file), delimiter=",")

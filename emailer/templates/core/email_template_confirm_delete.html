@@ -3,9 +3,9 @@
 
 {% block content %}
   <div class="card">
-    <h4 class="card-header bg-light">Context Delete</h4>
+    <h4 class="card-header bg-light">Email template Delete</h4>
     <div class="card-body">
-      <p class="mb-4">Are you sure you want to delete this context {{ object }} ?</p>
+      <p class="mb-4">Are you sure you want to delete this Emails template {{ object }} ?</p>
       <form method="post">
         {% csrf_token %}
         <button type="submit" class="btn btn-danger">Delete</button>
