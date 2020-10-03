@@ -72,10 +72,11 @@ class Context(models.Model):
     def setup_mail_sending(self, subject, message, dispatch_date, schedule_params):
         if dispatch_date:
             schedule(
-                name=f"{self.name}_{dispatch_date.date().replace('/', '_')}",
-                func=self.send_mails,
+                func="core.tasks.async_send_mails",
+                context_id=self.id,
                 subject=subject,
                 message=message,
+                next_run=dispatch_date,
                 **schedule_params,
             )
         else:

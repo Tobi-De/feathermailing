@@ -26,7 +26,7 @@ class EmailForm(forms.Form):
     REPEAT_CHOICES = ((-1, "Always"), (0, "Never"), (1, "Number"))
     SCHEDULE_TYPE = (
         ("O", "Once"),
-        ("M", "Minutes"),
+        ("I", "Minutes"),
         ("H", "Hourly"),
         ("D", "Daily"),
         ("W", "Weekly"),
@@ -57,15 +57,24 @@ class EmailForm(forms.Form):
         initial=1,
     )
 
+    # TODO the repeats is not working
     def generate_schedule_params(self):
+        # first we get the schedule type
         params_dict = {
             "schedule_type": self.cleaned_data.get("schedule_type"),
         }
-        if self.cleaned_data.get("schedule_type") == "M":
-            params_dict["minutes"] = (self.cleaned_data.get("minutes"),)
+        # if the schedule type is once, all other field are useless, so we
+        # return
+        if self.cleaned_data.get("schedule_type") == "O":
+            return params_dict
+        # get the repeats argument
         params_dict["repeats"] = (
             self.cleaned_data.get("repeats_nbr")
             if self.cleaned_data.get("repeat_type") == 1
             else self.cleaned_data.get("repeats_type")
         )
+        # if the schedule type is minutes, then we need one more argument,
+        # Number of minutes for the Minute
+        if self.cleaned_data.get("schedule_type") == "I":
+            params_dict["minutes"] = self.cleaned_data.get("minutes")
         return params_dict
