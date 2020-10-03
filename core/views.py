@@ -140,7 +140,7 @@ class SendEmailView(LoginRequiredMixin, View):
                 subject=form.cleaned_data["subject"],
                 message=form.cleaned_data["message"],
                 dispatch_date=form.cleaned_data["dispatch_date"],
-                schedule_params=form.generate_schedule_params(),
+                # schedule_params=form.generate_schedule_params(),
             )
             messages.success(self.request, "Sending...")
         return render(request, self.template_name, self.get_context_data())

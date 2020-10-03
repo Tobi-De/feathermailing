@@ -101,7 +101,7 @@ class Context(models.Model):
     def get_absolute_url(self):
         return reverse("context_detail", kwargs={"slug": self.slug})
 
-    def setup_mail_sending(self, subject, message, dispatch_date, schedule_params):
+    def setup_mail_sending(self, subject, message, dispatch_date, schedule_params=None):
         if dispatch_date:
             schedule(
                 func="core.tasks.async_send_mails",
@@ -109,7 +109,8 @@ class Context(models.Model):
                 subject=subject,
                 message=message,
                 next_run=dispatch_date,
-                **schedule_params,
+                schedule_type="O"
+                # **schedule_params,
             )
         else:
             self.send_mails(subject=subject, message=message)
