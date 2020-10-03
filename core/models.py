@@ -1,11 +1,13 @@
 import csv
 from io import StringIO
 
-from django.core.mail import send_mass_mail
 from django.db import models
 from django.shortcuts import reverse
 from django.utils.functional import cached_property
 from django_extensions.db.fields import RandomCharField, AutoSlugField
+from django_q.tasks import schedule, async_task
+
+from .utils import async_mass_mailing_csv, async_mass_mailing_contact
 
 
 class Contact(models.Model):
@@ -25,6 +27,7 @@ class CSVFile(models.Model):
         return self.uuid
 
 
+# TODO option to nofif admin when email is sent
 class Context(models.Model):
     name = models.CharField(max_length=130, unique=True)
     slug = AutoSlugField(populate_from=["name"])
@@ -66,29 +69,32 @@ class Context(models.Model):
     def get_absolute_url(self):
         return reverse("context_detail", kwargs={"slug": self.slug})
 
-    def get_emails_from_csv(self):
-        if not self.csv_files:
-            return []
-        emails = []
-        for csv_upload in self.csv_files.all():
-            emails += self.extract_emails_from_csv(csv_upload.file)
-        return emails
-
-    def get_all_emails(self):
-        emails = self.get_emails_from_csv()
-        emails += [contact.email for contact in self.contacts.all()]
-        return emails
+    def setup_mail_sending(self, subject, message, dispatch_date, schedule_params):
+        if dispatch_date:
+            schedule(
+                name=f"{self.name}_{dispatch_date.date().replace('/', '_')}",
+                func=self.send_mails,
+                subject=subject,
+                message=message,
+                **schedule_params,
+            )
+        else:
+            self.send_mails(subject=subject, message=message)
 
     # noinspection PyTypeChecker
-    def send_mails(self, subject, message, dispatch_date):
-        send_mass_mail(
-            ((subject, message, None, [email]) for email in self.get_emails_from_csv())
+    def send_mails(self, subject, message):
+        for csv_upload in self.csv_files.all():
+            async_task(
+                func=async_mass_mailing_csv,
+                subject=subject,
+                message=message,
+                from_mail=None,
+                csv_file=csv_upload.file,
+            )
+        async_task(
+            func=async_mass_mailing_contact,
+            subject=subject,
+            message=message,
+            from_mail=None,
+            contacts=self.contacts.all(),
         )
-
-    @classmethod
-    def extract_emails_from_csv(cls, csv_file):
-        source_file = csv_file.read().decode("utf-8")
-        reader = csv.reader(StringIO(source_file), delimiter=",")
-        header = next(reader)
-        index = header.index("email")
-        return [line[index] for line in reader]

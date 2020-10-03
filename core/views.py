@@ -2,6 +2,7 @@ from django.contrib import messages
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render, get_object_or_404, redirect, reverse
 from django.views.generic import ListView, View, DetailView, DeleteView, CreateView
+from django_q.tasks import async_task
 
 from .forms import ContextForm, EmailForm, CSVFileUploadForm
 from .models import Context, CSVFile, Contact
@@ -66,7 +67,7 @@ class ContextDeleteView(DeleteView):
 context_delete = ContextDeleteView.as_view()
 
 
-class ContactCreateView(CreateView):
+class ContactCreateView(LoginRequiredMixin, CreateView):
     model = Contact
     template_name = "core/contact_create.html"
     fields = ["email"]
@@ -93,7 +94,13 @@ class SendEmailView(LoginRequiredMixin, View):
         form = EmailForm(request.POST)
         context_object = self.get_context_object()
         if form.is_valid():
-            context_object.send_mails(**form.cleaned_data)
+            async_task(
+                context_object.setup_mail_sending,
+                subject=form.cleaned_data["subject"],
+                message=form.cleaned_data["message"],
+                dispatch_date=form.cleaned_data["dispatch_date"],
+                schedule_params=form.generate_schedule_params(),
+            )
             messages.success(self.request, "Sending...")
         return render(request, self.template_name, {"form": EmailForm()})
 

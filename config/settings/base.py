@@ -74,6 +74,7 @@ THIRD_PARTY_APPS = [
     "rest_framework",
     "rest_framework.authtoken",
     "corsheaders",
+    "django_q"
 ]
 
 LOCAL_APPS = [
@@ -284,5 +285,18 @@ REST_FRAMEWORK = {
 
 # django-cors-headers - https://github.com/adamchainz/django-cors-headers#setup
 CORS_URLS_REGEX = r"^/api/.*$"
-# Your stuff...
+# django-q
 # ------------------------------------------------------------------------------
+
+Q_CLUSTER = {
+    'name': 'emailer',
+    'workers': 8,
+    'recycle': 500,
+    'timeout': 120,
+    'compress': False,
+    'save_limit': 250,
+    'queue_limit': 500,
+    'cpu_affinity': 1,
+    'label': 'Django Q',
+    'redis': env('REDIS_URL', default="redis://localhost:6379")
+}

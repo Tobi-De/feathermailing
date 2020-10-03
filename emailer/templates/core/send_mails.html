@@ -2,7 +2,7 @@
 {% load crispy_forms_tags %}
 
 {% block content %}
-  <div class="card card-body">
+  <div class="card card-body p-4">
     <form method="POST">
       {% csrf_token %}
       {{ form|crispy }}
