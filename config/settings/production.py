@@ -151,7 +151,7 @@ LOGGING = {
     "formatters": {
         "verbose": {
             "format": "%(levelname)s %(asctime)s %(module)s "
-            "%(process)d %(thread)d %(message)s"
+                      "%(process)d %(thread)d %(message)s"
         }
     },
     "handlers": {
@@ -195,5 +195,12 @@ sentry_sdk.init(
     traces_sample_rate=env.float("SENTRY_TRACES_SAMPLE_RATE", default=0.0),
 )
 
-# Your stuff...
+# django-q
 # ------------------------------------------------------------------------------
+
+Q_CLUSTER = {
+    'name': 'DJRedis',
+    'workers': 8,
+    'timeout': 120,
+    'django_redis': 'default'
+}
