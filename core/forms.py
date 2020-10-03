@@ -1,6 +1,6 @@
 from django import forms
 
-from .models import Context, Contact
+from .models import Context, Contact, EmailTemplate
 
 
 class CSVFileUploadForm(forms.Form):
@@ -47,8 +47,8 @@ class EmailForm(forms.Form):
     repeats_nbr = forms.IntegerField(
         initial=1,
         help_text="Number of time to repeat the "
-                  "sending process, has effect only if your "
-                  "schedule type is not 'Once' and repeat is 'Number'",
+        "sending process, has effect only if your "
+        "schedule type is not 'Once' and repeat is 'Number'",
         min_value=1,
     )
     minutes = forms.IntegerField(
@@ -78,6 +78,19 @@ class EmailForm(forms.Form):
         if self.cleaned_data.get("schedule_type") == "I":
             params_dict["minutes"] = self.cleaned_data.get("minutes")
         return params_dict
+
+
+class EmailTemplateChooserForm(forms.Form):
+    template = forms.ChoiceField()
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields["template"].choices = tuple(
+            [
+                (template.slug, template.subject)
+                for template in EmailTemplate.objects.all()
+            ]
+        )
 
 
 class LoadEmailForm(forms.Form):

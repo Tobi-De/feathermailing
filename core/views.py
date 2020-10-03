@@ -1,6 +1,7 @@
 from django.contrib import messages
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render, get_object_or_404, redirect, reverse
+from django.utils.datastructures import MultiValueDictKeyError
 from django.views.generic import (
     ListView,
     View,
@@ -12,7 +13,13 @@ from django.views.generic import (
 )
 from django_q.tasks import async_task
 
-from .forms import ContextForm, EmailForm, CSVFileUploadForm, LoadEmailForm
+from .forms import (
+    ContextForm,
+    EmailForm,
+    CSVFileUploadForm,
+    LoadEmailForm,
+    EmailTemplateChooserForm,
+)
 from .models import Context, CSVFile, Contact, EmailTemplate
 
 
@@ -95,8 +102,34 @@ class SendEmailView(LoginRequiredMixin, View):
         # This is the context object
         return get_object_or_404(Context, slug=self.kwargs.get("slug"))
 
+    def get_context_data(self):
+        try:
+            email_slug = self.request.GET["template"]
+        except MultiValueDictKeyError:
+            form = EmailForm()
+            email_slug = ""
+        else:
+            email_template = get_object_or_404(EmailTemplate, slug=email_slug)
+            form = EmailForm(
+                initial={
+                    "subject": email_template.subject,
+                    "message": email_template.message,
+                }
+            )
+        context = {
+            "form": form,
+            "template_form": EmailTemplateChooserForm(),
+            "slug": self.kwargs.get("slug"),
+            "email_slug": email_slug,
+        }
+        return context
+
     def get(self, request, *args, **kwargs):
-        return render(request, self.template_name, {"form": EmailForm()})
+        return render(
+            request,
+            self.template_name,
+            self.get_context_data(),
+        )
 
     def post(self, request, *args, **kwargs):
         form = EmailForm(request.POST)
@@ -110,7 +143,7 @@ class SendEmailView(LoginRequiredMixin, View):
                 schedule_params=form.generate_schedule_params(),
             )
             messages.success(self.request, "Sending...")
-        return render(request, self.template_name, {"form": EmailForm()})
+        return render(request, self.template_name, self.get_context_data())
 
 
 send_mails = SendEmailView.as_view()

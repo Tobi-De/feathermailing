@@ -3,6 +3,11 @@
 
 {% block content %}
   <div class="card card-body p-4">
+    <form method="GET">
+      {{ template_form|crispy }}
+      <button type="submit" class="btn btn-secondary">Load</button>
+    </form>
+    <hr>
     <form method="POST">
       {% csrf_token %}
       {{ form|crispy }}
