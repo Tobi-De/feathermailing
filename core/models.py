@@ -6,6 +6,7 @@ from django.shortcuts import reverse
 from django.utils.functional import cached_property
 from django_extensions.db.fields import RandomCharField, AutoSlugField
 from django_q.tasks import schedule, async_task
+from tinymce import models as tinymce_models
 
 from .utils import async_mass_mailing_csv, async_mass_mailing_contact, get_index
 
@@ -30,7 +31,7 @@ class CSVFile(models.Model):
 class EmailTemplate(models.Model):
     subject = models.CharField(max_length=100)
     slug = AutoSlugField(populate_from=["subject"])
-    message = models.TextField()
+    message = tinymce_models.HTMLField()
     created = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
@@ -101,7 +102,7 @@ class Context(models.Model):
     def get_absolute_url(self):
         return reverse("context_detail", kwargs={"slug": self.slug})
 
-    def setup_mail_sending(self, subject, message, dispatch_date, schedule_params=None):
+    def setup_mail_sending(self, subject, message, dispatch_date):
         if dispatch_date:
             schedule(
                 func="core.tasks.async_send_mails",
@@ -110,7 +111,6 @@ class Context(models.Model):
                 message=message,
                 next_run=dispatch_date,
                 schedule_type="O"
-                # **schedule_params,
             )
         else:
             self.send_mails(subject=subject, message=message)

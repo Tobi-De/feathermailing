@@ -11,6 +11,7 @@
         <button type="submit" class="btn btn-success">Update</button>
         <a href="{% url "email_template_delete" object.slug %}" class="btn btn-danger">Delete</a>
       </form>
+      {{ form.media }}
     </div>
   </div>
 {% endblock %}

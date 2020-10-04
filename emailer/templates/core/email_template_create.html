@@ -11,6 +11,7 @@
         <button type="submit" class="btn btn-success">Create</button>
         <a href="{% url "load_email" %}" class="btn btn-info">Load from file</a>
       </form>
+      {{ form.media }}
     </div>
   </div>
 {% endblock %}

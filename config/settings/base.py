@@ -41,9 +41,7 @@ LOCALE_PATHS = [str(ROOT_DIR / "locale")]
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#databases
 
-DATABASES = {
-    "default": env.db("DATABASE_URL", default="postgres:///emailer")
-}
+DATABASES = {"default": env.db("DATABASE_URL", default="postgres:///emailer")}
 DATABASES["default"]["ATOMIC_REQUESTS"] = True
 
 # URLS
@@ -74,13 +72,11 @@ THIRD_PARTY_APPS = [
     "rest_framework",
     "rest_framework.authtoken",
     "corsheaders",
-    "django_q"
+    "django_q",
+    "tinymce",
 ]
 
-LOCAL_APPS = [
-    "emailer.users.apps.UsersConfig",
-    "core.apps.CoreConfig"
-]
+LOCAL_APPS = ["emailer.users.apps.UsersConfig", "core.apps.CoreConfig"]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
@@ -290,14 +286,14 @@ CORS_URLS_REGEX = r"^/api/.*$"
 # ------------------------------------------------------------------------------
 
 Q_CLUSTER = {
-    'name': 'emailer',
-    'workers': 8,
-    'recycle': 500,
-    'timeout': 120,
-    'compress': False,
-    'save_limit': 250,
-    'queue_limit': 500,
-    'cpu_affinity': 1,
-    'label': 'Django Q',
-    'redis': env('REDIS_URL', default="redis://localhost:6379")
+    "name": "emailer",
+    "workers": 8,
+    "recycle": 500,
+    "timeout": 120,
+    "compress": False,
+    "save_limit": 250,
+    "queue_limit": 500,
+    "cpu_affinity": 1,
+    "label": "Django Q",
+    "redis": env("REDIS_URL", default="redis://localhost:6379"),
 }

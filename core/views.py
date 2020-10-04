@@ -19,6 +19,7 @@ from .forms import (
     CSVFileUploadForm,
     LoadEmailForm,
     EmailTemplateChooserForm,
+    EmailTemplateForm
 )
 from .models import Context, CSVFile, Contact, EmailTemplate
 
@@ -140,7 +141,6 @@ class SendEmailView(LoginRequiredMixin, View):
                 subject=form.cleaned_data["subject"],
                 message=form.cleaned_data["message"],
                 dispatch_date=form.cleaned_data["dispatch_date"],
-                # schedule_params=form.generate_schedule_params(),
             )
             messages.success(self.request, "Sending...")
         return render(request, self.template_name, self.get_context_data())
@@ -175,7 +175,7 @@ contact_delete = ContactDelete.as_view()
 class EmailTemplateCreate(LoginRequiredMixin, CreateView):
     template_name = "core/email_template_create.html"
     model = EmailTemplate
-    fields = "__all__"
+    form_class = EmailTemplateForm
 
     def get_success_url(self):
         messages.success(self.request, "Email template created")
@@ -197,7 +197,7 @@ email_template_list = EmailTemplateList.as_view()
 class EmailTemplateUpdate(LoginRequiredMixin, UpdateView):
     template_name = "core/email_template_update.html"
     model = EmailTemplate
-    fields = "__all__"
+    form_class = EmailTemplateForm
 
     def get_success_url(self):
         messages.success(self.request, "Email template updated")
