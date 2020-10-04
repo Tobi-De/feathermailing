@@ -329,3 +329,4 @@ emailer/media/
 .env
 .envs/*
 !.envs/.local/
+*.prodconfig
