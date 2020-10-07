@@ -3,6 +3,7 @@ from django.urls import path
 from .views import (
     context_list,
     context_create,
+    context_update,
     send_mails,
     context_detail,
     context_delete,
@@ -13,13 +14,15 @@ from .views import (
     email_template_create,
     email_template_update,
     email_template_delete,
-    load_email
+    load_email,
+    event_list
 )
 
 urlpatterns = [
     path("", context_list, name="context_list"),
     path("context-detail/<str:slug>/", context_detail, name="context_detail"),
     path("context-delete/<str:slug>/", context_delete, name="context_delete"),
+    path("context-update/<str:slug>/", context_update, name="context_update"),
     path("add-context/", context_create, name="context_create"),
     path("add-contact/", contact_create, name="contact_create"),
     path("send-mails/<str:slug>/", send_mails, name="send_mails"),
@@ -30,4 +33,5 @@ urlpatterns = [
     path("email-template-update/<str:slug>/", email_template_update, name="email_template_update"),
     path("email-template-delete/<str:slug>/", email_template_delete, name="email_template_delete"),
     path("load-email/", load_email, name="load_email"),
+    path("event-list/", event_list, name="event_list")
 ]

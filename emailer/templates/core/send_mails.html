@@ -1,6 +1,15 @@
 {% extends "base.html" %}
 {% load crispy_forms_tags %}
 
+{% block css %}
+  {{ block.super }}
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js"
+          integrity="sha256-FEqEelWI3WouFOo2VWP/uJfs1y8KJ++FLh2Lbqc8SJk=" crossorigin="anonymous"></script>
+{% endblock css %}
+
 {% block content %}
   <div class="card card-body p-4">
     <form method="GET">
@@ -15,4 +24,9 @@
     </form>
     {{ form.media }}
   </div>
+  <script>
+    jQuery('#id_dispatch_date').datetimepicker({
+      format: 'm/d/Y H:i'
+    });
+  </script>
 {% endblock %}

@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load humanize %}
+
+{% block content %}
+  <div class="card shadow">
+    <div class="card-body">
+      <div class="table-responsive mt-4">
+        <table class="table table-striped">
+          <thead>
+          <tr>
+            <th>Context</th>
+            <th>Subject</th>
+            <th>Date</th>
+            <th>Time</th>
+          </tr>
+          </thead>
+          <tbody>
+          {% for obj in page_obj %}
+            <tr>
+              <td><a href="{% url "context_update"  obj.context.slug %}">{{ obj.context }}</a></td>
+              <td>{{ obj.subject }}</td>
+              <td>{{ obj.run_date.date|date }}</td>
+              <td>{{ obj.run_date.time|time }}</td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <nav class="float-right">
+          <ul class="pagination">
+            {% if page_obj.has_previous %}
+              <li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}"
+                                       aria-label="Previous"><span
+                      aria-hidden="true">«</span></a></li>
+            {% endif %}
+            {% for num in page_obj.paginator.page_range %}
+              {% if page_obj.number == num %}
+                <li class="page-item"><a class="page-link" href="?page={{ num }}">{{ num }}</a></li>
+              {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
+                <li class="page-item"><a class="page-link" href="?page={{ num }}">{{ num }}</a></li>
+              {% endif %}
+            {% endfor %}
+            {% if page_obj.has_next %}
+              <li class="page-item"><a class="page-link" href="?page={{ page_obj.next_page_number }}"
+                                       aria-label="Next"><span
+                      aria-hidden="true">»</span></a></li>
+            {% endif %}
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+{% endblock %}

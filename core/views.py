@@ -21,7 +21,7 @@ from .forms import (
     EmailTemplateChooserForm,
     EmailTemplateForm
 )
-from .models import Context, CSVFile, Contact, EmailTemplate
+from .models import Context, CSVFile, Contact, EmailTemplate, Event
 
 
 class ContextListView(LoginRequiredMixin, ListView):
@@ -40,6 +40,19 @@ class ContextDetailView(LoginRequiredMixin, DetailView):
 
 
 context_detail = ContextDetailView.as_view()
+
+
+class ContextUpdateView(LoginRequiredMixin, UpdateView):
+    model = Context
+    fields = ["name", "contacts"]
+    template_name = "core/context_update.html"
+
+    def get_success_url(self):
+        messages.success(self.request, "context updated")
+        return reverse("context_detail", kwargs={"slug": self.kwargs.get("slug")})
+
+
+context_update = ContextUpdateView.as_view()
 
 
 class ContextCreateView(LoginRequiredMixin, View):
@@ -233,3 +246,12 @@ class LoadEmailView(LoginRequiredMixin, FormView):
 
 
 load_email = LoadEmailView.as_view()
+
+
+class EventListView(ListView):
+    queryset = Event.objects.all().order_by("-run_date")
+    template_name = "core/event_list.html"
+    paginate_by = 6
+
+
+event_list = EventListView.as_view()

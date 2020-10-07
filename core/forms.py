@@ -6,7 +6,7 @@ from .models import Context, Contact, EmailTemplate
 
 class CSVFileUploadForm(forms.Form):
     csv_files = forms.FileField(
-        widget=forms.ClearableFileInput(attrs={"multiple": True})
+        widget=forms.ClearableFileInput(attrs={"multiple": True}), required=False
     )
 
 

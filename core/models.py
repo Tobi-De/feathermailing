@@ -60,6 +60,16 @@ class EmailTemplate(models.Model):
             EmailTemplate.objects.create(subject=filename, message=content)
 
 
+class Event(models.Model):
+    context = models.ForeignKey("core.Context", on_delete=models.CASCADE)
+    subject = models.CharField(max_length=132)
+    run_date = models.DateTimeField()
+    created = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.subject
+
+
 # TODO option to nofif admin when email is sent
 class Context(models.Model):
     name = models.CharField(max_length=130, unique=True)
@@ -104,13 +114,15 @@ class Context(models.Model):
 
     def setup_mail_sending(self, subject, message, dispatch_date):
         if dispatch_date:
+            Event.objects.create(context=self, subject=subject, run_date=dispatch_date)
             schedule(
+                name=f"event_{self.slug}",
                 func="core.tasks.async_send_mails",
                 context_id=self.id,
                 subject=subject,
                 message=message,
                 next_run=dispatch_date,
-                schedule_type="O"
+                schedule_type="O",
             )
         else:
             self.send_mails(subject=subject, message=message)

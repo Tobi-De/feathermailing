@@ -43,7 +43,7 @@ def async_mass_mailing_csv(
         from_mail=from_mail,
         csv_file=csv_file,
         offset=offset + limit,
-        limit=100,
+        limit=limit,
         size=size,
     )
 
@@ -67,5 +67,5 @@ def async_mass_mailing_contact(
             from_mail=from_mail,
             contacts=contacts,
             offset=offset + limit,
-            limit=100,
+            limit=limit,
         )

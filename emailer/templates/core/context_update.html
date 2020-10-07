@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+  <div class="card">
+    <h4 class="card-header bg-light">Update Context</h4>
+    <div class="card-body">
+      <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <button type="submit" class="btn btn-success">Update</button>
+      </form>
+      {{ form.media }}
+    </div>
+  </div>
+{% endblock %}

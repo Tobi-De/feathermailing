@@ -28,6 +28,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
           integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
           crossorigin="anonymous"/>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.min.css"
+          integrity="sha256-DOS9W6NR+NFe1fUhEE0PGKY/fubbUCnOfTje2JMDw3Y=" crossorigin="anonymous"/>
     <!-- This file stores project-specific CSS -->
 
     <link href="{% static 'css/project.css' %}" rel="stylesheet">
@@ -39,7 +42,7 @@
 
 <body>
 
-<div class="container mb-4">
+<div class="container mb-4 mt-4">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -56,6 +59,9 @@
         {% if request.user.is_authenticated %}
           <li class="nav-item">
             <a class="nav-link" href="{% url 'users:detail' request.user.username %}">{% trans "My Profile" %}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'event_list' %}">Events</a>
           </li>
           {% if request.user.is_superuser %}
             <li class="nav-item">
