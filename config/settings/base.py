@@ -6,8 +6,8 @@ from pathlib import Path
 import environ
 
 ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
-# emailer/
-APPS_DIR = ROOT_DIR / "emailer"
+# feathermailing/
+APPS_DIR = ROOT_DIR / "feathermailing"
 env = environ.Env()
 
 READ_DOT_ENV_FILE = env.bool("DJANGO_READ_DOT_ENV_FILE", default=False)
@@ -76,14 +76,14 @@ THIRD_PARTY_APPS = [
     "tinymce",
 ]
 
-LOCAL_APPS = ["emailer.users.apps.UsersConfig", "core.apps.CoreConfig"]
+LOCAL_APPS = ["feathermailing.users.apps.UsersConfig", "core.apps.CoreConfig"]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
 # MIGRATIONS
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#migration-modules
-MIGRATION_MODULES = {"sites": "emailer.contrib.sites.migrations"}
+MIGRATION_MODULES = {"sites": "feathermailing.contrib.sites.migrations"}
 
 # AUTHENTICATION
 # ------------------------------------------------------------------------------
@@ -182,7 +182,7 @@ TEMPLATES = [
                 "django.template.context_processors.static",
                 "django.template.context_processors.tz",
                 "django.contrib.messages.context_processors.messages",
-                "emailer.utils.context_processors.settings_context",
+                "feathermailing.utils.context_processors.settings_context",
             ],
         },
     }
@@ -264,9 +264,9 @@ ACCOUNT_EMAIL_VERIFICATION = "mandatory"
 # https://django-allauth.readthedocs.io/en/latest/configuration.html
 ACCOUNT_LOGIN_ON_EMAIL_CONFIRMATION = True
 # https://django-allauth.readthedocs.io/en/latest/configuration.html
-ACCOUNT_ADAPTER = "emailer.users.adapters.AccountAdapter"
+ACCOUNT_ADAPTER = "feathermailing.users.adapters.AccountAdapter"
 # https://django-allauth.readthedocs.io/en/latest/configuration.html
-SOCIALACCOUNT_ADAPTER = "emailer.users.adapters.SocialAccountAdapter"
+SOCIALACCOUNT_ADAPTER = "feathermailing.users.adapters.SocialAccountAdapter"
 
 # django-rest-framework
 # -------------------------------------------------------------------------------
@@ -286,7 +286,7 @@ CORS_URLS_REGEX = r"^/api/.*$"
 # ------------------------------------------------------------------------------
 
 Q_CLUSTER = {
-    "name": "emailer",
+    "name": "feathermailing",
     "workers": 8,
     "recycle": 500,
     "timeout": 120,

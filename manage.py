@@ -24,8 +24,8 @@ if __name__ == "__main__":
         raise
 
     # This allows easy placement of apps within the interior
-    # emailer directory.
+    # feathermailing directory.
     current_path = Path(__file__).parent.resolve()
-    sys.path.append(str(current_path / "emailer"))
+    sys.path.append(str(current_path / "feathermailing"))
 
     execute_from_command_line(sys.argv)

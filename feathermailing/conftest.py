@@ -1,7 +1,7 @@
 import pytest
 
-from emailer.users.models import User
-from emailer.users.tests.factories import UserFactory
+from feathermailing.users.models import User
+from feathermailing.users.tests.factories import UserFactory
 
 
 @pytest.fixture(autouse=True)

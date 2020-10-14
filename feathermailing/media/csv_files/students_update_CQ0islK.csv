@@ -1,0 +1,522 @@
+first_name,last_name,gender,email,phone_number,country,city,status,bachelor_degree
+Prosper,Awonon,Homme,awononprosper@gmail.com,67767780,Bénin,Bohicon/za-kpota,bachelier,D
+Lazarre,KEDJI,Homme,lazarehadji@gmail.com,97183080,Bénin,Porto-Novo,bachelier,D
+Kéhoundé Arcadius,AGOSSOU,Homme,arcadiusagossou172@gmail.com,67006045,Benin,Azovè,bachelier,D
+Ahouéfa Hermionne Audrey,ATCHOUIN,Femme,atchouina@gmail.com,62741737,Bénin,Azovè,bachelier,D
+Carelle Immaculée,AKPOVO,Femme,carelleakpovo@gmail.com,69556120,Bénin,Bohicon,bachelier,G2
+Mohamed,ADJAÏ,Homme,latifatouadjai82@gmail.com,65459372,Bénin,Abomey-calavi,bachelier,C
+Murielle,Gbaguidi,Femme,muriellegbaguidi781@gmail.com,+22951587421,Bénin,Cotonou,bachelier,B
+Ronaldo Jordy,SODE,Homme,sojordyronaldo@gmail.com,61889089,Benin,Calavi,bachelier,B
+Hosana,AVOKAN,Femme,hosanaavokan@gmail.com,+22996592138,Benin,Cotonou,bachelier,B
+Laurent,Sodji,Homme,beunadorsodji@gmail.com,69030933,Benin,Pobè,bachelier,D
+Gracia,BELLO,Femme,sabineokounde@gmail.com,64007468,Benin,Cotonou,bachelier,A
+Alfredo,AGOLI-AGBO,Homme,alfredoagbl@gmail.com,98623502,Bénin,Porto-Novo,bachelier,D
+Rahama Abiola Emmanuella,AHOUANSOU,Femme,abiolaahouansou25@gmail.com,51549825,Bénin,Porto novo,bachelier,B
+Ornelia,NOUKPOKINNOU,Femme,noukpkokinnouo@gmail.com,51749585,Bénin,porto novo,bachelier,B
+Wilfreed,SEHONOU,Homme,wilfreedsehonou@gmail.com,66593719,Bénin,Ouidah/pahou,bachelier,B
+Steevia,Olafa,Femme,sethdel69@gmail.com,90648609,Bénin,Cotonou,bachelier,C
+Abdoulaye,Traore,Homme,traoreabdou707@gmail.com,68360661,Bénin,Lokossa,étudiant,A
+Tobi Segbégnon Emmanuel,Savi,Homme,saviemmanuel92@gmail.com,+22990485138,Bénin,Porto-Novo,bachelier,D
+Sènaléton Johanès Cédric,KPEDE,Homme,johanikpede@gmail.com,66868428,Bénin,Cotonou,étudiant,D
+Cossi Emmanuel,Kassiwin,Homme,ckassiwin@gmail.com,95864732,Bénin,Savè,bachelier,D
+Bérénice,honvo,Femme,berenicehonvo07@gmail.col,51876921,Bénin,Cotonou,bachelier,G2
+David Fonsinkou,DOVONON,Homme,dovonondavid83@gmail.com,97220260,Bénin,Abomey-calavi,bachelier,B
+Tobi Segbégnon Emmanuel,Savi,Homme,emmanuelsavi92@gmail.com,90485138,Bénin,Porto-Novo,bachelier,D
+Narcisse M'Poli,N'OUEMOU,Homme,narcissen92@gmail.com,96673034,Bénin,ALLADA,étudiant,A
+Fawaze,Chabi mouhamed,Homme,chabifawaze@gmail.com,99774443,Bénin,Calavi,bachelier,D
+Jacques Sonday,MIDOGNI,Homme,midognijacques05@gmail.com,61147348,Bénin,Porto-Novo,bachelier,A
+Christina,Abodunrin,Femme,femimessi20@gmail.com,98648110,Bénin,Cotonou,bachelier,A
+S.Samson,ASSOU,Homme,assouarhysjohnson@gmail.com,91260087,Bénin,Cotonou,bachelier,F
+Michel,Kossou,Homme,kossoumichel2@gmail.com,66212701,Benin,Glazoué,bachelier,A
+Happy,BOTOKOU,Femme,happybotokou@gmail.com,62316587,Bénin,Cotonou,bachelier,B
+Mamert,AGBASSOU,Homme,mamertagbassou@Gmail.com,65353138,Benin,Abomey-calavi,bachelier,D
+Kouété Paulin,AHLOUKO,Homme,poloakopa@gmail.com,60246104,Benin,Abomey-calavi,bachelier,B
+Florence mélodie vignilé,ADJASSE,Femme,lodieflore24@gmail.com,65590154,Bénin,Cotonou,étudiant,B
+Renaud,Biaou,Homme,renaudbiaou5@gmail.com,69360672,Bénin,Savè,bachelier,D
+Prince,TOHANOU,Homme,princetohanou@gmail.com,69690662,Bénin,Cotonou,bachelier,C
+Andréa,AKOTTI,Femme,akotticherifath@gmail.com,62484667,Bénin,Calavi,bachelier,C
+Sambo Eric,N'OUENI,Homme,enoueni@gmail.com,96735951,BÉNIN,Parakou,étudiant,F
+Modéle,AYELODJOU-YEBE,Homme,yebeparker@email.com,95031119,Bénin,Akassato,bachelier,D
+Isaac,DJIMADJO,Homme,Djimadjoisaac@gmail.com,90186429,Benin,Comé,bachelier,D
+Modéle,AYELODJOU-YEBE,Homme,yebemodele@email.com,99094281,Bénin,Akassato,bachelier,D
+Nabilatou,TAMIMOU,Femme,Tamimounabilatou@gmail.com,51739198,Bénin,Cotonou,bachelier,B
+Hubert,N'TCHA,Homme,huberntcha@gmail.com,96897913,Benin,Parakou,bachelier,A
+Policape,AGANI,Homme,policapeagani@gmail.com,97130619,Bénin,Parakou,étudiant,D
+Wilfried Cossi,Tossou,Homme,wwwwilfriedtossou.com@gmail.com,95066724,Benin,Cotonou,bachelier,B
+Moutémainatou Edjidé,TAIROU,Femme,faroukedjid@gmail.com,61300105,Bénin,Cotonou,bachelier,B
+SARIGUI,Akim,Homme,Sariguiakim@gmail.com,64761981,Bénin,Parakou,bachelier,C
+Dieu béni SP,Hounmenou,Homme,giseleodjo5@gmail.com,90169552,Bénin,Cotonou,bachelier,C
+Arnold. H. F,VIANOU,Homme,arnoldhfv@gmail.com,97759463,Bénin,Cotonou,bachelier,F
+Jean-Marie Hostie Sèhou,GODONOU,Homme,julienneyavodji@yahoo.fr,97286947,Bénin,Cotonou,bachelier,D
+Clémentia Fifa,GODONOU,Femme,Clementiafifa@gmail.com,90879027,Bénin,Calavi,bachelier,D
+Fulbert,Kolorito,Homme,fulbertoledebrouillardayekolorito@gmail.com,90618495,Bénin,Bantè,bachelier,A
+Zébédée,KORA GBAZA,Homme,zkoragbaza@gmail.com,68170815,Bénin,Kandi,bachelier,A
+Achille Dotoun,BOTON FATCHE,Homme,cresusboton969@gmail.com,96686688,Bénin,Cotonou,bachelier,D
+Ishola,Babatounde,Homme,angelamarina307@gmail.com,61708667,Bénin,Cotonou,bachelier,A
+Honorine Grâce,AMOUSSOU,Femme,ahonorine954@gmail.com,+229 91865947,Benin,Cotonou,bachelier,B
+Foumilayo,ADELOU,Homme,foumilayoradelou@gmail.com,62223118,Bénin,IKPINLE,bachelier,D
+Larissa Miléna,AMOUSSOU,Femme,amoussoularissamilena@gmail.comm,90745825,Bénin,Cotonou,étudiant,D
+Saïd Olamidé Agnidé,AZONSIVO,Homme,Saidazonsi@gmail.com,+22951112204,Bénin,Cotonou,bachelier,D
+Jean,MOLIGUI,Homme,jeanmoligui@gmail.com,67882332,Bénin,Parakou,bachelier,C
+Albert,Togbede,Homme,albertostogbede99@gmail.com,51525887,Bénin,Cotonou,bachelier,D
+Penuel,HOUNDEGNON,Femme,lauryok@ymail.com,65586868,Bénin,Calavi,bachelier,D
+Eunice ridack,HOUESSOU,Homme,christianohouessou@gmail.com,61610143,Bénin,Cotonou,bachelier,D
+Fridoline,Adounkpe,Femme,adkfrido@gmail.com,91615525,Benin,Cotonou,bachelier,B
+Jeffrey Florenzo,Togbenou,Homme,jeff.togbenou@gmail.com,90254142,Bénin,Cotonou,bachelier,G2
+M. Virgil,GOKPON,Homme,gokponmvirgil@gmail.com,60495756,Bénin,Cotonou,bachelier,C
+Fernando,DJOSSOU,Homme,fernandoduvent@gmail.com,+22966232364,Benin,Cotonou,bachelier,G2
+Trésor,BASSA,Homme,tresorbassa747@gmail.com,68536407,Bénin,Cotonou,bachelier,B
+Sahadath Ayoka Iyabo Kofoworola,ALBATH,Femme,albathsaada3@gmail.com,61206324,Bénin,Cotonou,bachelier,D
+Marjory,KOMi,Femme,marjoryrebeccakomi@gmail.com,91205980,Bénin,Cotonou,bachelier,D
+Déodat,MEHINTO,Homme,deomht17@gmail.com,67381623,Bénin,Cotonou,bachelier,D
+Ogouchola,Gérard,Homme,gerardogouchola@gmail.com,69642811,Bénin,Sakete,bachelier,D
+Julius Murtaugh,M'PO-KUASSI,Homme,juliusmpo4@gmail.com,62147998,Benin,Parakou,bachelier,A
+Abel,SOGBO,Homme,abelsogbo2002@gmail.com,61522115,Bénin,Lokossa,bachelier,D
+Sidikou,TAHIROU,Homme,sandrajinandez@gmail.com,66628352,Bénin,Calavi,bachelier,B
+Bouhari,ISSIFOU,Homme,bouhariissifou@gmail.com,96840760,Bénin,Cotonou,étudiant,G2
+Magloire,Ocloo,Homme,magloireocloo@gmail.bj,95801897,Benin,Calavi,bachelier,D
+Precieuse,BANDEIRA,Femme,precieusebandeira@gmail.com,90136611,Benin,Cotonou,étudiant,B
+Yannez Fielda,AGBOSSAGA,Homme,agbossagafielda@gmail.com,97252598,Bénin,Cotonou,bachelier,A
+Rafiou,Oumorou,Homme,oumorourafiou6@gmail.com,61971239,Bénin,Djougou,bachelier,D
+Cyrus,HOUNSOU,Homme,hounsoucyrus3@gmail.com,62614006,Benin,Abomey-calavi,bachelier,C
+Gbèdolo Maurel,HOUNKOKO,Homme,maurelhkk7@gmail.com,61614061,Benin,Abomey-calavi,bachelier,A
+Chancelle,Agoudja,Femme,chancelloagoudja@gmail.com,69243242,Bénin,Cotonou,bachelier,A
+Abd Sobour Ayorindé,SANOUSSI,Homme,sanoussiabdsobour@gmail.com,61769461,Bénin,Porto-Novo,étudiant,A
+Assouwan Nonvidé Landry,KPODJEDO,Homme,landryassouwannonvidekpodjedo@gmail.com,91919273,Bénin,Abomey Calavi,bachelier,C
+Channelle kriss donadieu sédaminou,Sagnon,Femme,sagnonchanelle2003@icloud.com,66304848,Benin,Calavi,bachelier,A
+Camenie,SOUNLIN,Homme,sounlincamenie7@gmail.com,90325390,Bénin,Calavi,bachelier,D
+Joël,HENADOU,Homme,joehenadou@gmail.com,51577184,BÉNIN,Abomey Calavi,bachelier,C
+Jolio Véronique,Assihou,Femme,assihoujolioveronique@gmail.com,90908495,Bénin,Cotonou,bachelier,D
+Jéred,BOUTE,Homme,jeredboute@gmail.com,66358494,Bénin,Calavi,bachelier,D
+Rabiou,Djiwa,Homme,djiwarabiou0@gmail.com,63471018,Bénin,Nikki,bachelier,A
+Eliab,Tossa,Homme,tossaeliab03@gmail.com,90260192,Bénin,Cotonou,bachelier,D
+Merboze,AYELODJOU YEBE,Femme,midofimerboze@gmail.com,94030085,Bénin,Calavi,bachelier,B
+Jean-Eudes,AMOUSSOU,Homme,jeaneudesamoussou19@gmail.com,90 80 57 87,Bénin,Abomey-Calavi,bachelier,C
+Régis,Houinsou,Homme,regishouinsou911@gmail.com,+22967560496,Bénin,Porto-Novo,bachelier,D
+Kabirou,Chabi sero,Homme,kabirouchabisero@gmail.com,65054038,Bénin,Nikki,bachelier,D
+Mawuto Olive Nelly,HOUEDJI,Femme,mawutohouedji@gmail.com,95104010,Bénin,Ab Calavi,bachelier,C
+Kafilatou,ISSIFOU,Femme,issifoukafilatou@gmail.com,51104751,Bénin,Cotonou,bachelier,D
+Lafia,Zimé,Homme,lafiazimboyorouyari@gmail.com,95826977,Parakou,Parakou,bachelier,D
+Abdoul zakiou,AWALi TAIBOU,Homme,hamisnasri96@gmail.com,96271726,Benin,Cotonou,bachelier,A
+ABDOU BASSITOU,BONI SIMBE,Homme,simbeabdoul@gmail.com,95726408,Bénin,Nikki,étudiant,D
+Edmond,AVOGLOSSOU,Homme,avoglossouedmondgelchard@g-mail.com,98024627,Bénin,Cotonou,bachelier,D
+Eddy,Alapini,Homme,alapinijunior390@gmail.com,61429053,Bénin,Cotonou,bachelier,D
+G.Benjamin,HADJINOU,Homme,ghadjinou@gmail.com,66118507,Bénin,Zè hékanmè,étudiant,D
+ALLASSANE,MOUSSA,Homme,allassanemoussa25@gmail.com,66187002,BÉNIN,BIRNI,étudiant,A
+Clarisse,GOU,Femme,clag@gmail.com,61 42 86 81,benin,Cotonou,bachelier,D
+Rali,Lassissi,Femme,ralilassissi@gmail.com,95237144,Benin,Parakou,bachelier,D
+Gawe,Hanaw,Femme,hanaw@gmail.com,91845712,Benin,parakou,bachelier,B
+Juste,Gnanguenon,Homme,justegnanguenon@gmail.com,91399135,Benin,Pahour,bachelier,D
+Bona Nairath,Chabi oumarou,Femme,chabinairath@gmail.com,68730498,Benin,Calavi,bachelier,D
+Esperance,Kouagou,Femme,esperancekouagou07@gmail.com,96173131,Bénin,Calavi,bachelier,A
+Azimi,CHABI TAROU KORA,Homme,chabitarouazm@gmail.com,94058768,Bénin,Nikki,étudiant,A
+SAHENOU,Don Béri,Homme,sahenoudonberi@gmail.com,66971867,Bénin,Lokossa,bachelier,D
+Fatimata,MAMA,Femme,fatoumama48@gmail.com,63670315,Bénin,Parakou,bachelier,A
+Esther,OROU BORO,Femme,orouboro@gimail.com,94958584,Bénin,Parakou,bachelier,F
+Jacques Mawugnon,LOUHA,Homme,jacqueslouha@gmail.com,66378207,BÉNIN,za-kpota,bachelier,A
+Louis,Don de DIEU,Homme,Louisdondedieu@gmail.com,96002815,Benin,Porto-Novo,bachelier,D
+Adam,BOUSSOU YAROU,Homme,adamboussouyarou@gmail.com,95933824,Bénin,Abomey-calavi,étudiant,D
+Sagbo Cosme Jacques,KOUWAKANOU,Homme,jacques22cosme@gmail.com,61380255,Bénin,Porto-Novo,étudiant,D
+Mohamed Baharéini,SIDIKOU,Homme,Mohamed@xn--tour-epa.fr,65356421,Bénin,Parakou,bachelier,F
+ABDEL KADER,BADERIE,Homme,baderiekader@gmail.com,60732776,Benin,Cotonou,bachelier,G2
+Armel Ludese,BOSSOUPKO,Homme,armelludese@icloud.com,67387728,Benin,Cotonou,bachelier,D
+Armel ludese,BOSSOUKPO,Homme,armelludese@gmail.com,69470040,Benin,Cotonou,bachelier,A
+Régina,Balley,Femme,adewalereginaballey@gmail.com,67182863,Bénin,Calavi,bachelier,D
+Maxime,HOUMASSEE,Homme,Maximehoumasse35@gmail.com,94272929,Bénin,Cotonou,bachelier,D
+Charbel,Kidjo,Homme,kidjocharbel@gmail.com,68842706,Bénin,Calavi,bachelier,D
+Jénigath,DAGNITO,Homme,jenigathdagnito@gmail.com,61272360,Bénin,Cotonou,bachelier,D
+Cameline Olive,ACCROMBESSI,Femme,edyaccro@yahoo.fr,94541242,Bénin,Cotonou,bachelier,A
+DJOSSOU-BÉBÉ,Christian,Homme,cdjossoubebe@gmail.com,66097166,Bénin,Akpro-Missérété,étudiant,D
+Farida,HOUESSOUGA,Femme,faridaornella@gmail.com,61431225,Bénin,Cotonou,bachelier,D
+Dewanou Philippe,DANDJO,Homme,Beastyle808@gmail.com,67834120,Bénin,Calavi,bachelier,D
+Manassé,AKPOVI,Homme,manews193@gmail.com,91404910,Benin,Abomey Calavi,bachelier,C
+Mialy,Honfo,Femme,mialy50075@gmail.com,96555961,Bénin,Cotonou,bachelier,D
+Clarisse,HOUEZE,Femme,loralopez307@gmail.com,65327046,Bénin,Cococodji,bachelier,A
+Hermine,HOUNTONDJI,Femme,herminehountondji6@gmail.com,51464620,Bénin,Abomey-Calavi,bachelier,D
+Pascaline,Banda,Femme,yaboraf@gmail.com,61114882,Bénin,Natitingou,bachelier,D
+Sena Luc,Hountondji,Homme,luchountondji1001@gmail.com,68113753,Bénin,Abomey-Calavi,bachelier,B
+Sourou Edouard,OLALIYI,Homme,olaliyiedourard@gmail.com,66162147,Benin,Ifangni,étudiant,A
+Phidias Hilarion,GNANVE,Homme,phidiasgnanve@gmail.com,65651130,Bénin,Parakou,bachelier,B
+Claous Chabel Dona,ASSOGBA,Homme,assogbaclaous@gmail.com,97660298,Bénin,Porto-Novo,étudiant,B
+Gontran habib,Assogba,Homme,habibassogba674@gmail.com,66831037,Bénin,Cotonou,étudiant,B
+Emmanuel Innocent,KITI,Homme,Kitiemmanuel1994@gmail.com,67600162,Bénin,Cotonou,étudiant,G2
+Hénok,Dossou,Homme,sandrinelimadoss@gmail.comm,67901655,Bénin,Calavi,bachelier,D
+Christ Ozias Mahutondji,TCHENAGNI,Homme,Christtchenagni@gmail.com,63602889,Bénin,Cotonou,bachelier,D
+Clara Georgina,Akan-kekou,Femme,clarakekou@gmail.com,65676369,Bénin,Abomey Calavi,bachelier,D
+Tayé James 1er jumeaux,AGBO,Homme,jamesagbo906@gmail.com,97019202,Bénin,Ikpinlè,étudiant,D
+Kodirath,adeniyi,Femme,adeniyikodirath@gmail.com,96326858,Benin,Porto-Novo,étudiant,A
+Lucien,TITO,Homme,titolucien13@gmail.com,67799623,Benin,Dangbo,bachelier,D
+Gam-sa Adékèmi Chimène,ADJOU,Femme,Margaretadjou@gmail.com,67687807,Bénin,Calavi,bachelier,A
+Opportune Eméline Mèdessè,Zinzindohoue,Femme,opportunezinzindohoue00@gmail.com,91214034,Bénin,Calavi,bachelier,A
+Fouad,ODJOUOYE,Homme,odjfouad38@gmail.com,51018015,Bénin,Cotonou,bachelier,C
+Kelli Geovani,DANSIGA,Homme,kelligeovani@gmail.com,68762949,Bénin,Bohicon,bachelier,D
+Bonapate,GNIMADI,Homme,gnimadibonapate@gmail.com,69003440,Benin,Cotonou,étudiant,D
+Florida,Ballo,Femme,balloflorida10@email.com,99504600,Bénin,Tori,bachelier,A
+Dieu-Aplani,Betica,Homme,aplanib8@gmail.com,95014327,Bénin,Parakou,bachelier,D
+OziasTrésor Eyon,ASSOGBA,Homme,assogbaozias9@gmail.com,51478802,Bénin,Porto-Novo,bachelier,D
+Périclès,ADJOVI,Homme,periclesadjovi@gmail.com,67352070,Bénin,Cotonou,étudiant,D
+Nougnito mahutin jean-eude closer,Hounkpeate,Homme,closerhkt@gmail.com,98940696,Benin,Porto-novo,bachelier,A
+K.C.Aurel,KINDEMIN,Homme,kindeminchristson@gmail.com,91132611,Bénin,Abomey calavi,bachelier,D
+Ayouba,ALMOUSTAPHA,Homme,almoustaphaa53@gmail.com,67111399,Bénin,Calavi,bachelier,A
+Rolande,BOSSA,Femme,bossarolande5@gmail.com,51106573,Bénin,Calavi,bachelier,D
+Innocent,DAVI,Homme,daviinnocent8@gmail.com,95544464,Bénin,Cotonou,bachelier,C
+Moubarak,BENON,Homme,benmoumass@gmail.com,90838919,Bénin,Cotonou,bachelier,C
+Orsana,KPOGLA,Femme,eunocekpogla@gmail.com,67572372,Bénin,Calavi,bachelier,G2
+Ordiana,D.GLELE,Femme,houefaordiana1994@gmail.com,69288201,Bénin,Calavi,bachelier,A
+Clément,TOSSA-AMOUR,Homme,jean@gmail.com,61673866,Bénin,Calavi,bachelier,B
+Joel,DJITIN,Homme,henrijoeldjitin04@gmail.com,96768972,Bénin,Calavi,bachelier,F
+Romulus,ZINZINDOHOUE,Homme,afandjisylvestre@gmail.com,61937153,Bénin,Cotonou,bachelier,A
+Pédro,HOUESSOU,Homme,lospedro931@gmail.com,96139916,Bénin,Calavi,bachelier,F
+Fréjus,KAKPO,Homme,frejuskakpo20@gamail.com,67821826,Bénin,Calavi,bachelier,B
+Manuella,MITOKPE,Femme,popimamama@gmail.com,62735050,Bénin,Calavi,bachelier,D
+Noé,DOKONON,Homme,noedokonon@gmail.com,66991051,Bénin,Cotonou,bachelier,D
+Joanita,AZA,Femme,joanitaaza@gmail.com,61416034,Bénin,Cotonou,bachelier,B
+Bernadette,TOSSOU,Femme,bernadettetossou@icloud.com,60499952,Bénin,Calavi,bachelier,A
+Ornelia,ADOKO,Femme,nkechindukwe50@gmail.com,97409736,Bénin,Cotonou,bachelier,A
+Minetta,TOURE,Femme,wikimondial@gamail.com,66109915,Bénin,Cotonou,bachelier,D
+Charles,DANGOU,Homme,dangoucharles@gmail.com,51043158,Bénin,Cotonou,bachelier,G2
+Ruth,AKPLOGAN,Femme,ruthakplogan2@gmail.com,60466033,Bénin,Calavi,bachelier,A
+Sibiath,KASSINGNIN,Femme,sibiladi26@gmail.com,90220771,Bénin,Calavi,bachelier,A
+Donatien,BOGNANHO,Homme,Donasourou@gmail.com,96475613,Benin,Cotonou,étudiant,F
+Armand,ABOUDOU,Homme,aboudouarmand1@gmail.com,66875888,Bénin,Cotonou,bachelier,B
+Yacouba,LANKOUANDE,Homme,yacoubalakonde02@gmail.com,63200368,Bénin,Cotonou,bachelier,B
+Landry,Apkacla,Homme,landryakpacla@gmail.com,61570946,Bénin,Banikoara,bachelier,C
+Marie- Marlène,AMOUSSOU,Femme,amoussoumarlene20@gmail.com,90066557,Bénin,Calavi,bachelier,B
+Nicaise,DAHAYA,Homme,nicaisedayaha56@gmail.com,94826115,Bénin,Cotonou,bachelier,D
+Diane,YOTTO,Femme,adjaratousalou@gmail.com,62794694,Bénin,Calavi,bachelier,A
+Kadri,MACHUIDI,Homme,elcapaderokadri@gmail.com,64150198,Benin,Bembereke,bachelier,D
+Safiratou,MAMA,Femme,safiratoumama@gmail.com,96799500,Bénin,Calavi,bachelier,B
+Yaovi Gaston,BOSSOU,Homme,gastonbossou9@gmail.com,98244077,Bénin,Calavi,bachelier,F
+Benoît,AZANMAVO,Homme,benoitazanmavo@gmail.com,61058369,Bénin,Cove,bachelier,D
+Copernic,GBAGUIDI,Homme,copernic2016@gmail.com,61150285,Bénin,Calavi,bachelier,D
+Alban,AKPAH,Homme,albanakpah@gmail.com,90010371,Bénin,Calavi,bachelier,B
+Charbel,KPONOOR,Homme,kponoorgomez@gmail.com,62701665,Bénin,Calavi,bachelier,D
+ALIMI olaïdé,BANKOLE,Homme,banqueinter25@gmail.com,67182852,Benin,Cotonou,bachelier,A
+Floriale,AGOSSOU,Femme,albertinehounsinou@gmail.com,61678452,Bénin,Calavi,bachelier,B
+Kéoda,Dossou,Homme,dossoukeoda@gmail.com,97921388,Bénin,Cotonou,étudiant,C
+Jean,TOGNIKPO,Homme,tognikpojean@gmail.com,69788305,Bénin,Calavi,bachelier,A
+Thèrèse,TOGNIKPO,Femme,justinyelian@gmail.com,96130643,Bénin,Cotonou,bachelier,A
+Serge,Agbossou,Homme,sergeagbossou@gmail.com,99014886,Bénin,Parakou,bachelier,D
+Fabrice,EGUI,Homme,eguifabricemahoutodji@gmail.com,60494548,Bénin,Calavi,bachelier,D
+Eugène,AGBEKPONOU,Homme,agbekponoueugene5@gamil.com,96696408,Bénin,Cotonou,bachelier,D
+Freddy,LEACHSON,Homme,kyleleachson@gmail.com,91102217,Bénin,Cotonou,bachelier,B
+Notburge Estella Métogbé,Sounli,Femme,Rodasedj@gmail.com,51926860,Bénin,cotonou,bachelier,A
+Merveille,ABALLO,Femme,ablmerveille9@gamail.com,97005468,Bénin,Cotonou,bachelier,B
+Emilita,CHAFFA,Femme,yebaolayemi@gmail.com,63051534,Bénin,Calavi,bachelier,D
+Gloria,ABALLO,Femme,gloria.aballo06@gmail.com,61944907,Bénin,Calavi,bachelier,A
+Alerte,GBEDJEMAÏHO,Femme,alertedivine@gmail.com,94982879,Bénin,Calavi,bachelier,B
+Nathanaël,TCHOKPON,Homme,nathanaeltchokpon@gmaul.com,67237174,Bénin,Cotonou,bachelier,D
+Claudia,AMATA,Femme,estherlagofranckel@gmail.com,94380381,Bénin,Calavi,bachelier,G2
+Blaise,JOHN-AYI,Homme,blaisejohnayigerardo@gmail.com,99406463,Bénin,Cotonou,bachelier,G2
+Ingride,BESSAN,Femme,elisabethtohon@gmail.com,94502997,Bénin,Calavi,bachelier,A
+Olric,YOMBO,Homme,olricyombo96@gmail.com,94213202,Bénin,Calavi,bachelier,A
+Victor,SOSSOU,Homme,estefaniagarcia9999@gmail.com,61064193,Bénin,Calavi,bachelier,A
+Asaph Jonathan Jesunoukon,BIOKOU,Homme,jonathanbiokou50@gmail.com,96426770,Bénin,Porto-Novo,bachelier,D
+Yvan,ADJENIYA,Homme,yvanadjeniya37@gmail.com,51471112,Bénin,Cotonou,bachelier,A
+Evrard,THOUEDE,Homme,evrardtohouede15@gmail.com,96243301,Bénin,Calavi,bachelier,A
+Maurel,GBAÏ,Homme,maurelgbai30@gmail.com,62766246,Bénin,Calavi,bachelier,A
+Abdel Zidane,SEIDOU,Homme,seidouabdelzidane@gmail.com,61691407,Bénin,Calavi,bachelier,D
+Marius,ADOUKONOU,Homme,marianosadouk@hmail.com,61154148,Bénin,Cotonou,bachelier,D
+Pascal,FANDREBO,Homme,pascalmoufthaofandrebo@gmail.com,62653018,Bénin,Calavi,bachelier,B
+Keveen,DAHOUNTO,Homme,dahoun@gmail.com,97364102,Bénin,Cotonou,bachelier,B
+Nillece,HINSON,Femme,hinson@gmail.com,90295340,Bénin,Calavi,bachelier,D
+Rélissa Quéren Iréti,KIKI,Femme,Kikirelissaqueren@gmail.com,60472119,Bénin,Cotonou,bachelier,C
+Moïse,TCHIHOUNDJRO,Homme,moisedujardin1@gmail.com,97413684,Bénin,Bongui,bachelier,D
+Romuald,DJAHOUI,Homme,romualddjahoui5@gmail.com,66778707,Bénin,Cotonou,bachelier,D
+Lionel,YEDOMON,Homme,tchoutchoumartine@gmail.com,95496263,Bénin,Savalou,bachelier,D
+Véronique,DAMADOU,Femme,damadouvero@gmail.com,97296972,Bénin,Ouidah,bachelier,A
+Sonagon joël,KOUGBLENOU,Homme,Rosnaykougblenou@gmail.com,61785208,Benin,Porto-Novo,bachelier,D
+Enock,AWESSIN,Homme,axellovea@gmail.com,94244732,Bénin,Abomey-Calavi,bachelier,B
+André,Loussin,Homme,loussinmehunaange@gmail.com,67971662,Bénin,Abomey-calavi,étudiant,C
+Mohamed Djafarou,SINAISSIRE,Homme,mohameddjafarou5@gmail.com,91624940,Bénin,Parakou,bachelier,B
+Sedjro Joannice Ronel,DOMINGO,Homme,joannicedomingo@gmail.com,95587373,Bénin,Cotonou,bachelier,B
+Safirath,BAKARY,Femme,Safirathbakary20@gmail.com,+229 90255923,Bénin,Calavi,étudiant,C
+Loïck,GBAHOU,Homme,gbahouloick9@gmail.com,61707756/68092476,Bénin,Porto-Novo,bachelier,A
+Anne florianne,Kounde,Femme,Floriannekounde@gmail.com,99036652,Benin,Cotonou,bachelier,D
+Richy Aurel Sennen,ARABA,Homme,nicaraba2018@gmail.com,97522034,Bénin,Abomey calavi,bachelier,D
+Pamphile,DANSOU,Homme,pamphiledansou@gmail.com,61 83 55 61,Bénin,Abomey Calavi,bachelier,D
+Armela Christallina Emmanuella Sigan,GBEHINTO,Femme,emmasongba142002@gmail.com,62474582,Bénin,Porto-Novo,étudiant,D
+Houéfa Merveille Citarelle,KOUNOUHO,Femme,merveillekounouho925@gmail.com,91734565,Bénin,Porto Novo,bachelier,D
+Fabrice Worou,ABISSI,Homme,abissifabrice@gmail.com,94156474,Benin,Porto-Novo,bachelier,D
+Ken,ODOULAMI,Homme,kenodoulami@gmail.com,96731967,Benin,Cotonou,bachelier,B
+Charles,ATINDOKPO,Homme,charleslebonatindokpo@gmail.com,51361555,Benin,Porto Novo,bachelier,C
+Merveille,ZOUNTANGNI,Femme,dariaornella1@gmail.com,95662741,Bénin,Calavi,bachelier,D
+Moulikath,Boukari,Femme,moulikathboukari@gmail.com,62865441,Bénin,Porto-Novo,bachelier,C
+Rodrigue,GANLONON,Homme,ganltunde0@gmail.com,+22966459176,Bénin,Cotonou,étudiant,D
+kevin,anani,Homme,benedictebatonon@gmail.com,64010951,Bénin,cotonou,étudiant,D
+Immaculée,GANDONOU,Femme,immaculeegandonou832@gmail.com,67846447,Bénin,Porto-Novo,bachelier,G1
+Houénafa gloria Myjoune,Lokonon,Femme,Glorialokonon@g.mail.com,90335145,Bénin,Porto-Novo,bachelier,D
+Aurel Aristide,AHOTON,Homme,aristidelahoton@gmail.com,67463960,Bénin,Cotonou,bachelier,B
+Ulric,ALOWANOU,Homme,alowanouhugues@gmail.com,62107256,Bénin,Porto-Novo,bachelier,A
+Hanto,Bakhita,Femme,hantominette@gmail.com,62852580,Bénin,Cotonou,bachelier,D
+Chabi,Imorou,Homme,chabimorou87@gmail.com,90947154,Bénin,Porto-Novo,bachelier,C
+Naïmath,DJEDJE MAMAH,Femme,Naimadj228@gmail.com,67335327,Bénin,Porto Novo,bachelier,A
+Judith,ANATO,Femme,dazacaterine21@gmail.com,69130676,Bénin,Cotonou,bachelier,A
+Bergson Jean-Michel Sanvi,AQUEREBURU,Homme,bjmsaquereburu@gmail.com,61265840,Benin,Cotonou,étudiant,D
+Nounagnon Dieu donné,Dossa,Homme,dayanedossa@gmail.com,90217294,Bénin,Porto-Novo,bachelier,A
+Folachadé Pierrot Mauren Sêyidê,LOKOSSOU,Homme,lokossoupierrot48@gmail.com,51333845,Bénin,Porto-Novo,bachelier,D
+Isaac,ALAVO,Homme,isaacalavo02@gmail.com,61790768,Benin,Cotonou,bachelier,D
+Fleurette,Tohon,Femme,fleurette.tohon@gmail.com,90882711,Bénin,Cotonou,bachelier,B
+Géovani,Totin,Homme,Geovanitotin490@gmail.com,62058218,Bénin,Cotonou,bachelier,A
+Olav Runel,KPOFFON,Homme,olavkpoffon54@gmail.com,90174880,Bénin,Porto-Novo,étudiant,D
+Paul Anicet,Gbetoho,Homme,anicetgbetoho2000@gmail.com,69721715,Bénin,Porto-Novo,bachelier,D
+Lodia,ETI DIPITA,Femme,lodiaetidipita@gmail.com,66899086,Bénin,Cotonou,étudiant,D
+Massioud,Agbo-ola,Homme,massioudagboola8@gmail.com,51861923,Bénin,Porto-novo,bachelier,D
+Jessica,SOSSOU,Femme,merveille20sossou@gmail.com,66207793,Benin,Cotonou,étudiant,C
+Maimoun,AMADOU,Homme,AMADO3@gmail.com,67369617,Benin,cotonou,bachelier,B
+mahuton charbelle,SANTOS,Femme,santos@gmail.com,51510254,Benin,cotonou,bachelier,G2
+Cédric,ZOSSOU,Homme,cedricdisick596@gmail.com,60094582,Bénin,Cotonou,étudiant,D
+Viviane,HOUNTONDJI,Homme,htviviane@gmail.com,97549943,Benin,cotonou,bachelier,A
+NOUDEKE,Denis,Homme,denisnoudeke38@gmail.com,96467379,Bénin,Porto-novo,étudiant,D
+Thierry,TCHONKLOE,Homme,Ttch@gmail.com,94664858,Benin,Dogbo,bachelier,C
+Kouasso Romaric,SOSSOU,Homme,romaric2000sossou@gmail.com,97088021,Benin,Come,bachelier,D
+Samuel Koffi,EDJIN,Homme,edjinsamuel@gmail.com,94280024,Benin,Come,bachelier,D
+Dieu Donnée,HOUNMENOU,Homme,Dieud3@gmail.com,66422134,Benin,Seme-Kpodji,bachelier,C
+Gilbert Jérémie,OKE,Homme,gilbertjeremie31976@gmail.com,00229 97484065,Bénin,ABOMEY-CALAVI,étudiant,A
+Ludmilla-Marie Eurydice S,ALITONOU,Femme,millaalitonou4@gmail.com,98981106,Bénin,Cotonou,bachelier,G2
+Miflinso Cathe-Valery,AKATCHA,Homme,akatcha@gmail.com,61370837,Benin,logosounkpa,bachelier,D
+Cynthia,AGO,Femme,ago.esdras@gmail.com,66099197,Benin,cotonou,bachelier,D
+Anne,KOSSOUGBETO,Femme,annedivkos@gmail.com,61629732,Bénin,Ouidah,bachelier,D
+Roxanne,Gbaguidi,Femme,naocedo@gmail.com,944114127,Bénin,Cotonou,bachelier,B
+Corine,Lokossou,Femme,noutchept@gmail.com,95443534,Bénin,Cotonou,bachelier,A
+G. Yvon,Hounkpatin,Homme,yvonhounkpatin@gmail.com,+229 61794642,Bénin,Abomey-Calavi,étudiant,D
+AVENON,christ-Aurele,Homme,christaureleavenon@gmail.com,+22996031959,Bénin,Cotonou,bachelier,B
+BAROUD,Haroun Tchong-Tchong,Homme,baroudharoun@gmail.com,69126062,Bénin,Cotonou,étudiant,A
+BAROUD,Haroun Tchong-Tchong,Homme,Baroudharoun@gmail.com,69126052,Bénin,Cotonou,étudiant,A
+Dagbémabou Gwladis Jonas,DELLOUH,Homme,jdellouh@gmail.com,64669914,Bénin,Calavi,bachelier,C
+Bignon Prisca,LEBRUN,Femme,lebrunprisca200@gmail.com,90482079,Bénin,Cotonou,bachelier,B
+Jeanne sèna,NOUTAÏ,Femme,njeannesena@gmail.com,96120343,Bénin,cotonou,bachelier,A
+Jean luc,ACCROMBESSI,Homme,jeanlucalexia239@gmail.com,97696711,Pays,Cotonou,bachelier,B
+Mohamed,ADJAÏ,Homme,woroukabiratou@gmail.com,69388247,Bénin,Abomey-calavi,bachelier,C
+Roland,SAVI,Homme,saviroland4@gmail.com,66482537,Bénin,Cotonou,bachelier,D
+Trésor,AGBÉTI,Homme,agbetitresor@gmail.com,61468426,Bénin,Abomey-Calavi,bachelier,D
+Esther Esméralda Stécy,AYIVI,Femme,esmeayivi@gmail.com,62541810,Bénin,Abomey calavi,bachelier,B
+Snelle,Alouko,Femme,aloukosnelle832@gmail.com,69197036,Benin,Calavi,bachelier,B
+Comlan Moïse,Savi,Homme,comlanmoises@gmail.com,67275408,Benin,Grand popo,étudiant,B
+Hi larry,DOSSOU-YOVO,Femme,dossouhila367@gmail.com,61256360,Bénin,Calavi,bachelier,G2
+Essenam,TOTO,Femme,essanamtoto@gmail.com,97701034,Bénin,Calavi,bachelier,G2
+Ahouéfa Valdas,HOUNGBO,Femme,houngbovaldas625@gmail.com,99696552,Bénin,Calavi,bachelier,G2
+Junior,HOUNYO,Homme,hounyojunior@gmail.com,97903233,Bénin,Calavi,bachelier,G2
+Jean-Marie,SOCHENOU,Homme,jeanmariesochenou@gmail.com,69198137,Bénin,Calavi,bachelier,G2
+Joseph,KOBITI,Homme,benoitkobiti@gmail.com,61199325,Bénin,Calavi,bachelier,G2
+Danialux,GOUGBEDJI,Homme,danialuxgougbedji@gmail.com,91910825,Bénin,Calavi,bachelier,G2
+Marie Christelle,NOUAGOVI,Femme,christellenouagovi224@gmail.com,68340291,Bénin,Calavi,bachelier,G2
+Néfertity,ALOFA,Femme,nefertityalofa@gmail.com,69583232,Bénin,Calavi,bachelier,G2
+Néféry,ALOFA,Femme,neferyalofa@gmail.com,69586262,Bénin,Calavi,bachelier,G2
+Benoît,HONFO,Homme,ben.mahou@gmail.com,99878768,Bénin,Calavi,bachelier,D
+Dari Frédéric,KAMI,Homme,fkamidari@gmail.com,96466048,Bénin,Calavi,bachelier,C
+Sabine,ADJOVI,Femme,larosem840@gmail.com,99770902,Bénin,Calavi,bachelier,D
+Jérémie,SOGLONGBE,Homme,jeremiesoglongbe86@gmail.com,60761845,Bénin,Cotonou,bachelier,D
+Jules Sergio,DJONON,Homme,djononsergio@gmail.com,62526079,Bénin,Calavi,bachelier,F
+Daniel,HONOU,Homme,honoudaniel99@gmail.com,68845216,Togo,Calavi,bachelier,F
+Augustin,HOUNGUE,Homme,ahoungue153@gmail.com,64148302,Bénin,Calavi,bachelier,F
+Nestor,TONOUDO,Homme,ncnestortonoudo@gamil.com,67146326,Bénin,Calavi,bachelier,F
+Perrin,AGUENOUDE,Homme,aguenoudeperrin@gmail.com,51584531,Bénin,Cotonou,bachelier,A
+Epyphane,ZAGADOU,Homme,epyphanezokou@gmail.com,94672151,Bénin,Cotonou,bachelier,F
+Espérance,GUINYO,Femme,esperanceguinyo@gmail.com,97893159,Bénin,Calavi,bachelier,F
+Pierre,AGBOHOUTO,Homme,agbohoutopierre@gmail.com,68636517,Bénin,Cotonou,bachelier,F
+Khalick,YACOUBOU,Homme,yacouboukhalick@gmail.com,65553148,Bénin,Cotonou,bachelier,F
+Ariel,IDOSSA,Homme,arielidossa@gmail.com,66141814,Bénin,Cotonou,bachelier,F
+Léon,FADOU,Homme,leonboyponty2000@gmail.com,66055741,Bénin,Calavi,bachelier,D
+David,AKPOVI,Homme,akpovidavidson@gmail.com,95231286,Benin,Cotonou,étudiant,A
+Christelle,AKPOVI,Homme,akpovidavid@gmail.com,67627721,Benin,Abomey-Calavi,bachelier,A
+Absinthe,OUEDANOU,Femme,Ouedanouabsinthe@gmail.com,51012480,Bénin,Cotonou,bachelier,A
+ricardo,hounnou,Homme,ricardohounnou2@gmail.com,96835219,Bénin,Cotonou,étudiant,D
+Koba Lionel Clément,Assogba,Homme,assogbaclement507@gmail.com,90558184,Bénin,Calavi,bachelier,B
+Kafoui,Hounnou,Homme,khounnou99@gmail.com,60907030,Bénin,Cotonou,étudiant,B
+Assani,Bello,Homme,hassan225@outlook.bj,94263099,Bénin,Abomey calavi,bachelier,B
+Épiphane Geordy Finagnon,HOUENOUKOUN,Homme,geordyehouenoukoun@gmail.com,+22997242051,Bénin,Cotonou,bachelier,F
+Amos,ASSOGBA,Homme,amosassogba00@gmail.com,61012552,Bénin,Calavi,bachelier,D
+Idelphonse,ADEYEMI,Homme,cedojesus8@gmail.com,96510331,Bénin,Calavi,bachelier,D
+Ulrich,Agbossou,Homme,ulrichagbossou1997@gmail.com,91104078,Bénin,Cotonou,étudiant,D
+Sènami claire,EZIN,Femme,senamiclaire23@gmail.com,51464111,Bénin,Calavi,bachelier,D
+Innocent,HOUNGBOSSA,Homme,innocentkoffi9@gmail.com,60484065,Bénin,Calavi,bachelier,G2
+Chadrac,ZINSOU,Homme,chadracthx445@gmail.com,61206357,Bénin,Calavi,bachelier,G2
+Océane,TOSSE,Femme,oceanetossetosse@gmail.com,63058862,Bénin,Calavi,bachelier,F
+Copernic,AGBESSI,Homme,copernicalmighty@gmail.com,60118296,Bénin,Calavi,bachelier,G2
+Marc,COCOU,Homme,marcahston2001@gmail.com,61749229,Bénin,Calavi,bachelier,G2
+Abondance,HABOU,Homme,adtourisme@gmail.com,62866000,Bénin,Calavi,bachelier,G2
+Judicaël,AKONDE,Homme,akondejudicael6@gmail.com,67431805,Benin,Porto-Novo,bachelier,D
+Samuel,ZOHOUN,Homme,moderanzoh@gmail.com,51367997,Bénin,Calavi,bachelier,G2
+Gloria,HAIKOU,Femme,gloriahaikousouvenir@gmail.com,96923535,Bénin,Cotonou,bachelier,C
+Plaisir,AHOSSI,Homme,plaisirahossi@gmail.com,61144297,Bénin,Calavi,bachelier,C
+Rochdyath,BACHABI,Femme,rochdyathbachabi@gmail.com,95414664,Bénin,Calavi,bachelier,C
+Rafiath,SOUMANOU,Femme,rafiath06soumanou@gmail.com,61510785,Bénin,Cotonou,bachelier,A
+Ange-Migael,FATONDJI,Homme,angefatondji715@gmail.com,66561797,Bénin,Calavi,bachelier,G2
+Naïmatou,BAPARAPE,Femme,naimatoubaparape@gmail.com,64116060,Bénin,Cotonou,bachelier,C
+Charles,ADONON,Homme,adononcharles4@gmail.com,68019257,Bénin,Calavi,bachelier,G2
+Jérémie,ANANI,Homme,jeremiefolly2003@gmail.com,65109863,Bénin,Cotonou,bachelier,C
+IDRISSOU,Moubarack,Homme,idrissoumoubarak5@gmail.com,90194666,Bénin,Calavi,bachelier,G2
+ADJOVI,Noémie,Femme,adjovineomie@gmail.com,51529828,Bénin,Calavi,bachelier,G2
+Fawoziath,SALOU,Femme,fawoziath@003gmail.com,97363297,Bénin,Cotonou,bachelier,D
+Joanita,GBESSI,Femme,nitagbessi44@gmail.com,95169012,Bénin,Cotonou,bachelier,D
+Jerry,NOUMONVI,Homme,jerrynoumonvi09@gmail.com,64967437,Bénin,Cotonou,bachelier,C
+Stéphane,QUENUM,Homme,stephlaclasse01@gmail.com,61112292,Bénin,Calavi,bachelier,C
+Précieux,HOUNKPE,Homme,hounkpeprecieux1@gmail.com,62238660,Bénin,Calavi,bachelier,C
+Cephas,SOHOU,Homme,cephdragnir7@gmail.com,97428963,Bénin,Calavi,bachelier,D
+Ousmane,HOVOR,Homme,hendock11@gmail.com,98981040,Bénin,Cotonou,bachelier,C
+Gloria,TOZOUN,Femme,yvettetozoun@gmail.com,67000723,Bénin,Calavi,bachelier,C
+Abdoul-z,BAKO,Homme,zakou7461@gmail.com,61695968,Bénin,Calavi,bachelier,D
+Nonette,GBENONTIN,Femme,gbenontinnonette@gmail.com,69287448,Bénin,Cotonou,bachelier,G2
+Nestor,AMOU,Homme,theophilenestora@gmail.com,65623259,Bénin,Cotonou,bachelier,C
+Mélissa,AHOUISSOU,Femme,lindafannet@gmail.com,6395O449,Bénin,Cotonou,bachelier,C
+Jean-luc,ADOHO,Homme,jeanlorisadho@gmail.com,62727301,Bénin,Calavi,bachelier,D
+Bienvenu,NOUGBODE,Homme,bragatetsuta@gmail.com,63607102,Bénin,Calavi,bachelier,B
+Frelinge,AYITON,Homme,frelingeaiton@gmail.com,96623665,Bénin,Calavi,bachelier,B
+Dine,METOGBE,Homme,dinosvaldo09@gmail.com,65717745,Bénin,Calavi,bachelier,B
+Aichath,KARIM,Femme,aichakarim795@gmail.com,90348843,Bénin,Calavi,bachelier,B
+Juste,AGLIGAN,Homme,justaboye@gmail.com,91612023,Bénin,Calavi,bachelier,B
+Mario,GOHOUNGO,Homme,gohoungomario@gmail.com,97297118,Bénin,Cotonou,bachelier,B
+Oscar,GBEDO,Homme,oscargbedo@gmail.com,61621795,Bénin,Calavi,bachelier,B
+Charles,VIGNINOU,Homme,aquilasvigninou48@gmail.com,62840089,Bénin,Calavi,bachelier,B
+Johannes,BOSSOU,Homme,johannesbossou29@gmail.com,61572515,Bénin,Calavi,bachelier,B
+Théophile,AFFO,Homme,deschanpssandre123@gmail.com,66480244,Bénin,Calavi,bachelier,B
+Polycarpe  Godel,BOTON,Homme,polycarpeboton02@gmail.com,66086293,Bénin,Calavi,bachelier,B
+Dayanou,ATCHADE,Homme,dayanouatchade@gmail.com,67022458,Bénin,Calavi,bachelier,B
+Merveille,TOGBE,Femme,moresmokiwi@gmail.com,91556372,Bénin,Calavi,bachelier,D
+Pérèse,HOUESSOU,Femme,peresehou@gmail.com,91779753,Bénin,Calavi,bachelier,D
+Mayloire,ACLOO,Homme,mayloire@gmail.com,99203710,Bénin,Calavi,bachelier,D
+Odilon,HOUNGUE,Homme,madoijules@gmail.com,61393849,Bénin,Calavi,bachelier,B
+Lysterne,DEGBE,Femme,degbelysterne@gmail.com,61710253,Bénin,Calavi,bachelier,A
+Elvira,KOUGBLA,Femme,elevirakougbla2018@gmail.com,97336803,Bénin,Cotonou,bachelier,D
+Kitcho Terrence,HADJI,Homme,terrencehadjikitcho@gmail.com,97441128,Bénin,Calavi,bachelier,C
+Emmanuel,AGBOTOME,Homme,emmanuelagbotomey0@gmail.com,94588345,Bénin,Calavi,bachelier,C
+Fiacre,KPOHOUEGBE,Homme,fkpohouegbe@gmail.com,94880292,Bénin,Calavi,bachelier,C
+Hibah,GOUNNOU,Femme,gounnouhibah@gmail.com,90257197,Bénin,Calavi,bachelier,C
+Ihsann,SEREKI,Homme,serekiihsann@gmail.com,61145768,Bénin,Calavi,bachelier,C
+Nathanael,HOUNGAN,Homme,houngannathanael@gmail.com,99268172,Bénin,Cotonou,bachelier,C
+Pios,SENOU,Homme,senoupios@gmail.com,66829669,Bénin,Cotonou,bachelier,D
+Yacine,BOUKARI,Homme,steeveboukari9@gmail.com,67365050,Bénin,Cotonou,bachelier,C
+Luc,HOUNSOU,Homme,luchounsou820@gmail.com,65375222,Bénin,Cotonou,bachelier,C
+Langevin,DOSSOU,Homme,dossoulangevin@gmail.com,9733292949,Bénin,Cotonou,bachelier,C
+Charbelle,TOSSOU,Femme,charbelletossou03@gmail.com,62223337,Bénin,Cotonou,bachelier,C
+Salomon,AKOHO,Homme,malippeakh02@gmail.com,51920652,Benin,Calavi,bachelier,C
+Nabyl,AGUEH,Homme,boagueh7@gmail.com,51920651,Bénin,Calavi,bachelier,D
+Toundé,SOUROU,Homme,loicksourou28@gmail.com,51920650,Bénin,Calavi,bachelier,D
+Auride Daria,AZA,Femme,auride99@gmail.com,91569550,Bénin,Cotonou,bachelier,D
+Emmanuel,GNONNAME,Homme,emmanuelvachon5@gmail.com,67322643,Bénin,Cotonou,bachelier,A
+Emmanuel,ADIGBENOU,Homme,emmanueladigbenou@gmail.com,51929764,Bénin,Calavi,bachelier,D
+Arsène,DJIDAGO,Homme,arsenedjidago@gmail.com,64755735,Bénin,Parakou,bachelier,A
+Edit,KPEDOU,Homme,djimedoparkerkelly@gmail.com,91639883,Bénin,Calavi,bachelier,A
+Promise,AGBAZAHOU,Femme,agbazahoupromise@gmail.com,91538087,Bénin,Calavi,bachelier,B
+Anselme,ALLAKONON,Homme,tonparasucere@gmail.com,60175294,Bénin,Calavi,bachelier,B
+Junias,ALADASSIVO,Homme,juniasdelbuentiempo@gmail.com,67627120,Bénin,Calavi,bachelier,A
+Roberto,YATAKPO,Homme,carlosyatakpo@gmail.com,99728812,Bénin,Calavi,bachelier,D
+sordik,SOURAKATOU,Homme,icholasordik@gmail.com,64539137,Bénin,Calavi,bachelier,B
+Maroine,TOURE,Homme,alintoure35@gmail.com,62190110,Bénin,Calavi,bachelier,B
+Lydia,HOUNKPATIN,Femme,hounkpatinlydia@gmail.com,69073981,Bénin,Calavi,bachelier,A
+Judicael,SOUNNOUVOU,Homme,judicaelsounnouvou@gmail.com,64998765,Bénin,Calavi,bachelier,D
+Sylvias,VODOUNNON,Femme,sylviasmonadic@gmail.com,91942224,Bénin,Calavi,bachelier,A
+Arnauld Martial,LOKOSSOU,Homme,martialarnauld@gmail.com,61512176,Bénin,Calavi,bachelier,D
+Fréjus,AGLINGO,Homme,frejusaglingo@gmail.com,61210084,Bénin,Calavi,bachelier,D
+Agnès,AGBOHESSOU,Femme,agnesagbohessou@gmail.com,95977746,Bénin,Calavi,bachelier,D
+Ludmilla,CEGNIGBETO,Homme,wimine.160900@gmail.com,66107546,Bénin,Calavi,bachelier,D
+Thomas,AHOUANDJINOU,Homme,ahouandjinouthomson@gmail.com,62040049,Bénin,Calavi,bachelier,B
+Delmas,ARIGBO,Homme,delmasarigbo6@gmail.com,96472891,Bénin,Calavi,bachelier,A
+Ibrahim,MOUMOUNI,Homme,moumouniibrahi@gmail.com,97782613,Bénin,Djougou,bachelier,A
+Robinson,HOUENOUMADIN,Homme,robinsonhouenoumadin@gmail.com,61136472,Bénin,Calavi,bachelier,B
+Jocelyn Brice,LALOU,Homme,bricelalou@gmail.com,65290333,Bénin,Calavi,bachelier,B
+Samuel,KOUNAKPO,Homme,samlight780@gmail.com,66183593,Bénin,Calavi,bachelier,B
+Espérancia mariella sèlomè,YEHOUENOU,Femme,esperancia@12gmail.com,97 70 33 40,Benin,Cotonou,bachelier,D
+Justomer Djidago,Djidago,Homme,justomerdjidago@gmail.com,90424028,Benin,Abomey-calavi,bachelier,D
+Lisette Sinthia Ahouéfa,do-REGO,Femme,lisettedorego@gmail.com,62173621,Bénin,Cotonou,bachelier,B
+Achraf,Issifou,Homme,issifouachraf99@gmail.com,97759031,Bénin,Djougou,bachelier,A
+Jonas,DELLOUH,Homme,jdellouh1@gmail.com,95111657,Bénin,Calavi,bachelier,C
+Charbel,AKOTOME,Homme,charbelvasquez@gmail.com,95631374,Bénin,Calavi,bachelier,B
+Ruth,BANKOLE,Femme,bankolehospice@gmail.com,65268001,Bénin,Calavi,bachelier,B
+Léonce,AGBOGBO,Femme,leonceagbogbo@gmail.com,69194965,Bénin,Calavi,bachelier,B
+Eunice,AKOHA,Femme,euniceakoha@icloud.com,51589794,Bénin,Calavi,bachelier,B
+Ludoxki,ADJIHA,Homme,adjludoxk@gmail.com,90256092,Bénin,Calavi,bachelier,B
+Christabelle,HOUNKANDJI,Femme,hounkandjichrista@gmail.com,51451452,Bénin,Calavi,bachelier,B
+Garvey waïd,AKAKPO,Homme,garveyakakpo@gmail.com,98209985,Bénin,Calavi,bachelier,B
+Ifèdé,KOHOUNFO,Homme,konfojudicael@gmail.com,61128063,Bénin,Calavi,bachelier,B
+Moustahine,CHITOU,Homme,adebayo@gmail.com,69917491,Bénin,Calavi,bachelier,B
+Rony Noël,BODOUNRIN,Homme,ronybdr@gmail.com,99787956,Bénin,Calavi,bachelier,B
+Gilbert,KANDJI,Homme,kandjigilbert@gmail.com,97066218,Bénin,Calavi,bachelier,B
+Debsy,AKPA,Femme,akpadebora@gmail.com,65 62 79 79,Bénin,Cotonou,bachelier,D
+Marius,Hognonto,Homme,mariushognonto85@gmail.com,61754236,Bénin,Cotonou,bachelier,A
+Aboubacar,SALIFOU boukari,Homme,aboubakarboukary@mail.com,96660161,Bénin,Malanville,bachelier,D
+Kossi Julien,Bolade,Homme,kossijulienaboyadecole@g-mail.com,67916261,Bénin,Natitingou,bachelier,G2
+Missimahou Maurice,GBAGUIDI AGBOSSOU,Homme,gbaguidimaurice21a@gmail.com,67132819,BÉNIN,Cotonou,bachelier,C
+Chelsie,GLELE,Femme,glelechelsie@gmail.com,97701095,Bénin,Cotonou,étudiant,A
+Mouhammed,ADAMOU,Homme,adamouhammed9@gmail.com,96351705,Bénin,DJOUGOU,bachelier,B
+Serge,Donou,Homme,sergedonou@gmail.com,61629293,Bénin,COTONOU,bachelier,D
+Fidèle,Tokpo,Homme,fideleanato6121@gmail.com,61210421,Bénin,Calavi,bachelier,G2
+Soumana,Roukaya,Femme,roukayasoumana5@gmail.com,91570262,Niger,Maradi,bachelier,D
+Mergèce,GUEGUEZO,Femme,gueguezomergece@gmail.com,69130275,Bénin,Calavi,bachelier,B
+Samson,MALENOU,Homme,samsonmalenou@gmail.com,68992598,Bénin,Calavi,bachelier,B
+Tritte,KIMPOLO,Homme,kimpolotritte@gmail.com,96751235,Bénin,Calavi,bachelier,B
+Sadoc,HESSOU,Homme,boyregis29@gmail.com,91425366,Bénin,Calavi,bachelier,D
+Elfride,BOCOVO,Homme,elfridebocovo@gmail.com,61064349,Bénin,Calavi,bachelier,B
+Paul Marius,CAKPO,Homme,mariuscakpo01@gmail.com,91696487,Bénin,Calavi,bachelier,B
+Hermance,AGBANGLA,Femme,sewboboshh@gmail.com,98447648,Bénin,Calavi,bachelier,B
+Grace,SEMASSA,Femme,semassagrace@gmail.com,96171739,Bénin,Calavi,bachelier,B
+Luc,AHOSSOU,Homme,ahissouluc1987@gmail.com,51330001,Bénin,Calavi,bachelier,B
+Jean,KOUTONSSOU,Homme,jeankoutonssou96@gmail.com,97673548,Bénin,Calavi,bachelier,B
+Habibou-laye,NOUROU,Homme,habiboulayenourou@gmail.com,61283715,Bénin,Calavi,bachelier,B
+Victorien,TCHANIGA,Homme,tchaniga@gmail.com,66010376,Bénin,Calavi,bachelier,B
+Fernando,DACLOUNON,Homme,fernandodaclounon@gmail.com,97139006,Bénin,Calavi,bachelier,B
+Abner,ADJOVI,Homme,abneradjovi19@gmail.com,60333263,Bénin,Calavi,bachelier,D
+Fiacre,SEVIDE,Homme,sevidetovalou@gmail.com,94005225,Bénin,Calavi,bachelier,D
+Énock,DA- ALLADA,Homme,dmindelle@gmail.com,91681878,Bénin,Calavi,bachelier,D
+Joanelle,ADJAKPA,Femme,adjakpajoanelle@gmail.com,99001929,Bénin,Calavi,bachelier,D
+Sybel Charles,DAHOUNTO,Homme,sybelcharles@gmail.com,62382816,Bénin,Calavi,bachelier,A
+Djima Expédit,OKOUNDE,Homme,okoundedjima22@gmail.com,99767439,Bénin,Calavi,bachelier,A
+Ted,OKE,Homme,tedokefils@gmail.com,61303049,Bénin,Calavi,bachelier,D
+Nadia,DODEDO,Femme,nadia@gmail.com,90083656,Bénin,Calavi,bachelier,D
+Gloria,GNAKADJA,Femme,gloryagbangla@gmail.com,60249269,Bénin,Calavi,bachelier,B
+Anbroisine,CAKPO,Femme,yrysdan@gmail.com,60666735,Bénin,Calavi,bachelier,B
+Marie- Christelle,TCHIBOZO,Femme,christelletchibozo140@gmail.com,66130639,Bénin,Calavi,bachelier,B
+Cédric,MATANMI,Homme,atanmicedric9@gmail.com,62028736,Bénin,Calavi,bachelier,B
+Mazou,ADAMOU,Homme,adamoumazou@17gmail.com,67348670,Bénin,Calavi,bachelier,B
+Abdel Fadel,ADAM,Homme,financefadel@gmail.com,62108182,Bénin,Calavi,bachelier,B
+Sogbossi Firmin,SEVI,Homme,kevin.sevi54@gmail.com,69584867,Bénin,Calavi,bachelier,B
+Mario,GOHOUNGO,Homme,mariogohoungo@gmail.com,97297116,Bénin,Calavi,bachelier,B
+Landry,OBOSSOU,Homme,obossouisrael@gmail.com,66068173,Bénin,Calavi,bachelier,B
+Fifamur Fabiola,ALLOGNON,Femme,fabiolaallognon@gmail.com,62344720,Bénin,Calavi,bachelier,B
+Igor,ADOTO,Homme,igoradoto@gamail.com,90950004,Bénin,Calavi,bachelier,B
+Maurice,TOTIN,Homme,ezefanoezechiel@gmail.com,64268060,Bénin,Calavi,bachelier,A
+Arnaud Guillaume,HOUEDOHOUN,Homme,houedohoun@gmail.com,64361876,Bénin,Calavi,bachelier,B
+Peace,DAMBAKI,Femme,lunadash63@gmail.com,66394601,Bénin,Calavi,bachelier,B
+Girland,ALLAHOU,Homme,gallahou@gmail.com,69580944,Bénin,Calavi,bachelier,B
+Gniré Bignon,GUERA,Femme,gnireguera@gmail.com,95441347,Bénin,Calavi,bachelier,B
+Quivy,GOUSSANOU,Homme,q9a9a9a@gmail.com,95215480,Bénin,Calavi,bachelier,A
+Oeudi,AYENAN,Homme,shalomayenan@gmail.com,61259231,Bénin,Calavi,bachelier,A
+Bill,AGOGNON,Homme,billagognon@gmail.com,67892167,Bénin,Calavi,bachelier,A
+Christian,DOSSA,Homme,christiandossa@gmail.com,61581659,Bénin,Calavi,bachelier,A
+Ricardo,SETOUNKPATIN,Homme,sricardochoco@gmail.com,65533746,Bénin,Calavi,bachelier,B
+Japhet,ZOHOUN,Homme,gabriellafirea10@gmail.com,99512494,Bénin,Calavi,bachelier,A
+Jean Joanine DS Amlilath,Dossou-yovo,Femme,noriedy22@gmail.com,61486624,Bénin,Calavi,bachelier,A
+Abdel Nawaf,KODA,Homme,nadafkoda4@gmail.com,64889453,Bénin,Calavi,bachelier,B
+Megnissè Orphériel,GANYEHOU,Homme,stephenganyehou@gmail.com,51919383,Bénin,Calavi,bachelier,B
+Job Abed,HOUNSOU,Homme,aklassouabed@gmail.com,61686129,Bénin,Calavi,bachelier,F
+Fidlex,TIKPA,Homme,fidlextrannoy@gmail.com,95029526,Bénin,Calavi,bachelier,D
+Doriane,ABOUE,Femme,abouedoriane@gmail.com,99712157,Bénin,Calavi,bachelier,B
+Nelson,ANAGO,Homme,nelsonanago7@gmail.com,67429498,Bénin,Calavi,bachelier,D
+Anicet,DAGBA,Homme,denabria@gmail.com,62401878,Bénin,Calavi,bachelier,D
+Méschac,AKOUETE,Homme,meschacakouete@gmail.com,62831034,Bénin,Calavi,bachelier,D
+Hubert Mondé,ATCHO,Homme,atchohubert23@gmail.com,91427009,Bénin,Calavi,bachelier,B
+Binodel,KPATACLO,Homme,binodelkpataclo878@gmail.com,95043631,Bénin,Calavi,bachelier,D
+Sonia,ADJIDOME,Femme,adjidomesonia@gmail.com,94883334,Bénin,Cotonou,étudiant,C
+Paulin,Azanma,Homme,paulinazamma96@gmail.com,67547786,Bénin,Cotonou,bachelier,A
+Florentin,OUSSOU,Homme,oussouflorentn@gmail.com,64800450,Bénin,Calavi,bachelier,D
+Ulrich,VODOUNNON,Homme,ulrichvodounnon@gmail.com,90256272,Bénin,Calavi,bachelier,A
+Prince,AVOHOU,Homme,immaculeegogan@gmail.com,61528962,Bénin,Calavi,bachelier,C
+Adéba,ADJINDA,Homme,adjindaadeba@gmail.com,61456423,Bénin,Calavi,bachelier,B
+Dorcas,SOGLO,Femme,christbelle.soglo2@gmail.com,61476367,Bénin,Calavi,bachelier,A
+Blandine,LOKOSSOU,Femme,blandinelokossou@gmail.com,60289201,Bénin,Calavi,bachelier,B
+Élodie,GUEHOU,Femme,elodieguehou@gmail.com,69305592,Bénin,Calavi,bachelier,A
+Sandrine,AZONNOUDOU,Femme,sandrineazonnoudou@gmail.com,66433709,Bénin,Calavi,bachelier,D
+Ambroise,OKE,Homme,ambroiseoke@gmail.com,90680195,Bénin,Calavi,bachelier,B
+Gwladys,ADJANON,Femme,adjanongwladys@gmail.com,66545719,Bénin,Calavi,bachelier,B
+Dieu-donné,AGBADJIGAN,Homme,dieudonneagbadjigan@gmail.com,97203203,Bénin,Calavi,bachelier,B
+Christian,GNONGBETO,Homme,christiangnongbeto@gmail.com,69067835,Bénin,Calavi,bachelier,B
+Pacôme,MEVO,Homme,saintpacome45@gmail.com,+22991698179,Bénin,Calavi,bachelier,B
+Abdel,Aziz,Homme,abdelazizassani@gmail.com,94684040,Benin,Porto-Novo,bachelier,D
+Hanaw,Gawe,Femme,gawehanaw@gmail.com,98286444,BENIN,Parakou,étudiant,B
+Djigbondè Pierre Paul Noris,TONOUKOUIN,Homme,Noristonoukouin98@gmail.com,95764813,Bénin,Ouidah,bachelier,D
+Toyimi,DAHOUNDO,Femme,mdahoundo@gmail.com,+22996789092,Bénin,Cotonou,étudiant,D
+Marion,Schneider,Femme,marionschneider3@gmail.com,+32468592171,France,Paris,bachelier,B
+Daros,Kpikpidi,Homme,acalmadaros@yahoo.fr,+32493147086,Belgique,Ottignies-Louvain-la-Neuve,bachelier,D
+Alex Gilles,LOUMEDJINON,Homme,loumalex.al@gmail.com,95043781,Bénin,Cotonou,bachelier,B
+Tobi,DEGNON,Homme,degnonfrancis@gmail.com,63567811,Benin,Cotonou,bachelier,A
